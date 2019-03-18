@@ -16,7 +16,7 @@ namespace NorthwoodElementaryBingo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BingoForm());
+            Application.Run(new recentTrackingTxt());
         }
     }
 }

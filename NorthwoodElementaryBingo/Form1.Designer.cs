@@ -1,6 +1,6 @@
 ﻿namespace NorthwoodElementaryBingo
 {
-    partial class BingoForm
+    partial class recentTrackingTxt
     {
         /// <summary>
         /// Required designer variable.
@@ -28,73 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BingoForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(recentTrackingTxt));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.display2 = new System.Windows.Forms.Button();
-            this.display3 = new System.Windows.Forms.Button();
-            this.display4 = new System.Windows.Forms.Button();
-            this.display5 = new System.Windows.Forms.Button();
-            this.display6 = new System.Windows.Forms.Button();
-            this.display7 = new System.Windows.Forms.Button();
-            this.display8 = new System.Windows.Forms.Button();
-            this.display9 = new System.Windows.Forms.Button();
-            this.display10 = new System.Windows.Forms.Button();
-            this.display11 = new System.Windows.Forms.Button();
-            this.display12 = new System.Windows.Forms.Button();
-            this.display13 = new System.Windows.Forms.Button();
-            this.display14 = new System.Windows.Forms.Button();
-            this.display15 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.display1 = new System.Windows.Forms.Button();
-            this.display16 = new System.Windows.Forms.Button();
-            this.display30 = new System.Windows.Forms.Button();
-            this.display29 = new System.Windows.Forms.Button();
-            this.display28 = new System.Windows.Forms.Button();
-            this.display27 = new System.Windows.Forms.Button();
-            this.display26 = new System.Windows.Forms.Button();
-            this.display25 = new System.Windows.Forms.Button();
-            this.display24 = new System.Windows.Forms.Button();
-            this.display23 = new System.Windows.Forms.Button();
-            this.display22 = new System.Windows.Forms.Button();
-            this.display21 = new System.Windows.Forms.Button();
-            this.display20 = new System.Windows.Forms.Button();
-            this.display19 = new System.Windows.Forms.Button();
-            this.display18 = new System.Windows.Forms.Button();
-            this.display17 = new System.Windows.Forms.Button();
-            this.display31 = new System.Windows.Forms.Button();
-            this.display45 = new System.Windows.Forms.Button();
-            this.display44 = new System.Windows.Forms.Button();
-            this.display43 = new System.Windows.Forms.Button();
-            this.display42 = new System.Windows.Forms.Button();
-            this.display41 = new System.Windows.Forms.Button();
-            this.display40 = new System.Windows.Forms.Button();
-            this.display39 = new System.Windows.Forms.Button();
-            this.display38 = new System.Windows.Forms.Button();
-            this.display37 = new System.Windows.Forms.Button();
-            this.display36 = new System.Windows.Forms.Button();
-            this.display35 = new System.Windows.Forms.Button();
-            this.display34 = new System.Windows.Forms.Button();
-            this.display33 = new System.Windows.Forms.Button();
-            this.display32 = new System.Windows.Forms.Button();
-            this.display46 = new System.Windows.Forms.Button();
-            this.display60 = new System.Windows.Forms.Button();
-            this.display59 = new System.Windows.Forms.Button();
-            this.display58 = new System.Windows.Forms.Button();
-            this.display57 = new System.Windows.Forms.Button();
-            this.display56 = new System.Windows.Forms.Button();
-            this.display55 = new System.Windows.Forms.Button();
-            this.display54 = new System.Windows.Forms.Button();
-            this.display53 = new System.Windows.Forms.Button();
-            this.display52 = new System.Windows.Forms.Button();
-            this.display51 = new System.Windows.Forms.Button();
-            this.display50 = new System.Windows.Forms.Button();
-            this.display49 = new System.Windows.Forms.Button();
-            this.display48 = new System.Windows.Forms.Button();
-            this.display47 = new System.Windows.Forms.Button();
             this.display61 = new System.Windows.Forms.Button();
             this.display75 = new System.Windows.Forms.Button();
             this.display74 = new System.Windows.Forms.Button();
@@ -110,7 +45,74 @@
             this.display64 = new System.Windows.Forms.Button();
             this.display63 = new System.Windows.Forms.Button();
             this.display62 = new System.Windows.Forms.Button();
+            this.display46 = new System.Windows.Forms.Button();
+            this.display60 = new System.Windows.Forms.Button();
+            this.display59 = new System.Windows.Forms.Button();
+            this.display58 = new System.Windows.Forms.Button();
+            this.display57 = new System.Windows.Forms.Button();
+            this.display56 = new System.Windows.Forms.Button();
+            this.display55 = new System.Windows.Forms.Button();
+            this.display54 = new System.Windows.Forms.Button();
+            this.display53 = new System.Windows.Forms.Button();
+            this.display52 = new System.Windows.Forms.Button();
+            this.display51 = new System.Windows.Forms.Button();
+            this.display50 = new System.Windows.Forms.Button();
+            this.display49 = new System.Windows.Forms.Button();
+            this.display48 = new System.Windows.Forms.Button();
+            this.display47 = new System.Windows.Forms.Button();
+            this.display31 = new System.Windows.Forms.Button();
+            this.display45 = new System.Windows.Forms.Button();
+            this.display44 = new System.Windows.Forms.Button();
+            this.display43 = new System.Windows.Forms.Button();
+            this.display42 = new System.Windows.Forms.Button();
+            this.display41 = new System.Windows.Forms.Button();
+            this.display40 = new System.Windows.Forms.Button();
+            this.display39 = new System.Windows.Forms.Button();
+            this.display38 = new System.Windows.Forms.Button();
+            this.display37 = new System.Windows.Forms.Button();
+            this.display36 = new System.Windows.Forms.Button();
+            this.display35 = new System.Windows.Forms.Button();
+            this.display34 = new System.Windows.Forms.Button();
+            this.display33 = new System.Windows.Forms.Button();
+            this.display32 = new System.Windows.Forms.Button();
+            this.display16 = new System.Windows.Forms.Button();
+            this.display30 = new System.Windows.Forms.Button();
+            this.display29 = new System.Windows.Forms.Button();
+            this.display28 = new System.Windows.Forms.Button();
+            this.display27 = new System.Windows.Forms.Button();
+            this.display26 = new System.Windows.Forms.Button();
+            this.display25 = new System.Windows.Forms.Button();
+            this.display24 = new System.Windows.Forms.Button();
+            this.display23 = new System.Windows.Forms.Button();
+            this.display22 = new System.Windows.Forms.Button();
+            this.display21 = new System.Windows.Forms.Button();
+            this.display20 = new System.Windows.Forms.Button();
+            this.display19 = new System.Windows.Forms.Button();
+            this.display18 = new System.Windows.Forms.Button();
+            this.display17 = new System.Windows.Forms.Button();
+            this.display1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.display15 = new System.Windows.Forms.Button();
+            this.display14 = new System.Windows.Forms.Button();
+            this.display13 = new System.Windows.Forms.Button();
+            this.display12 = new System.Windows.Forms.Button();
+            this.display11 = new System.Windows.Forms.Button();
+            this.display10 = new System.Windows.Forms.Button();
+            this.display9 = new System.Windows.Forms.Button();
+            this.display8 = new System.Windows.Forms.Button();
+            this.display7 = new System.Windows.Forms.Button();
+            this.display6 = new System.Windows.Forms.Button();
+            this.display5 = new System.Windows.Forms.Button();
+            this.display4 = new System.Windows.Forms.Button();
+            this.display3 = new System.Windows.Forms.Button();
+            this.display2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -202,924 +204,1095 @@
             this.panel1.Size = new System.Drawing.Size(1402, 516);
             this.panel1.TabIndex = 0;
             // 
-            // display2
+            // display61
             // 
-            this.display2.AutoSize = true;
-            this.display2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display2.Location = new System.Drawing.Point(175, 0);
-            this.display2.Name = "display2";
-            this.display2.Size = new System.Drawing.Size(86, 80);
-            this.display2.TabIndex = 22;
-            this.display2.Text = "2";
-            this.display2.UseVisualStyleBackColor = true;
+            this.display61.AutoSize = true;
+            this.display61.BackColor = System.Drawing.Color.White;
+            this.display61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display61.Location = new System.Drawing.Point(89, 319);
+            this.display61.Name = "display61";
+            this.display61.Size = new System.Drawing.Size(86, 80);
+            this.display61.TabIndex = 87;
+            this.display61.Text = "61";
+            this.display61.UseVisualStyleBackColor = false;
+            this.display61.Click += new System.EventHandler(this.display61_Click);
             // 
-            // display3
+            // display75
             // 
-            this.display3.AutoSize = true;
-            this.display3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display3.Location = new System.Drawing.Point(261, 0);
-            this.display3.Name = "display3";
-            this.display3.Size = new System.Drawing.Size(86, 80);
-            this.display3.TabIndex = 2;
-            this.display3.Text = "3";
-            this.display3.UseVisualStyleBackColor = true;
+            this.display75.AutoSize = true;
+            this.display75.BackColor = System.Drawing.Color.White;
+            this.display75.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display75.Location = new System.Drawing.Point(1293, 319);
+            this.display75.Name = "display75";
+            this.display75.Size = new System.Drawing.Size(86, 80);
+            this.display75.TabIndex = 85;
+            this.display75.Text = "75";
+            this.display75.UseVisualStyleBackColor = false;
+            this.display75.Click += new System.EventHandler(this.display75_Click);
             // 
-            // display4
+            // display74
             // 
-            this.display4.AutoSize = true;
-            this.display4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display4.Location = new System.Drawing.Point(347, 0);
-            this.display4.Name = "display4";
-            this.display4.Size = new System.Drawing.Size(86, 80);
-            this.display4.TabIndex = 3;
-            this.display4.Text = "4";
-            this.display4.UseVisualStyleBackColor = true;
+            this.display74.AutoSize = true;
+            this.display74.BackColor = System.Drawing.Color.White;
+            this.display74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display74.Location = new System.Drawing.Point(1207, 319);
+            this.display74.Name = "display74";
+            this.display74.Size = new System.Drawing.Size(86, 80);
+            this.display74.TabIndex = 84;
+            this.display74.Text = "74";
+            this.display74.UseVisualStyleBackColor = false;
+            this.display74.Click += new System.EventHandler(this.display74_Click);
             // 
-            // display5
+            // display73
             // 
-            this.display5.AutoSize = true;
-            this.display5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display5.Location = new System.Drawing.Point(433, 0);
-            this.display5.Name = "display5";
-            this.display5.Size = new System.Drawing.Size(86, 80);
-            this.display5.TabIndex = 4;
-            this.display5.Text = "5";
-            this.display5.UseVisualStyleBackColor = true;
+            this.display73.AutoSize = true;
+            this.display73.BackColor = System.Drawing.Color.White;
+            this.display73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display73.Location = new System.Drawing.Point(1121, 319);
+            this.display73.Name = "display73";
+            this.display73.Size = new System.Drawing.Size(86, 80);
+            this.display73.TabIndex = 83;
+            this.display73.Text = "73";
+            this.display73.UseVisualStyleBackColor = false;
+            this.display73.Click += new System.EventHandler(this.display73_Click);
             // 
-            // display6
+            // display72
             // 
-            this.display6.AutoSize = true;
-            this.display6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display6.Location = new System.Drawing.Point(519, 0);
-            this.display6.Name = "display6";
-            this.display6.Size = new System.Drawing.Size(86, 80);
-            this.display6.TabIndex = 5;
-            this.display6.Text = "6";
-            this.display6.UseVisualStyleBackColor = true;
+            this.display72.AutoSize = true;
+            this.display72.BackColor = System.Drawing.Color.White;
+            this.display72.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display72.Location = new System.Drawing.Point(1035, 319);
+            this.display72.Name = "display72";
+            this.display72.Size = new System.Drawing.Size(86, 80);
+            this.display72.TabIndex = 82;
+            this.display72.Text = "72";
+            this.display72.UseVisualStyleBackColor = false;
+            this.display72.Click += new System.EventHandler(this.display72_Click);
             // 
-            // display7
+            // display71
             // 
-            this.display7.AutoSize = true;
-            this.display7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display7.Location = new System.Drawing.Point(605, 0);
-            this.display7.Name = "display7";
-            this.display7.Size = new System.Drawing.Size(86, 80);
-            this.display7.TabIndex = 6;
-            this.display7.Text = "7";
-            this.display7.UseVisualStyleBackColor = true;
+            this.display71.AutoSize = true;
+            this.display71.BackColor = System.Drawing.Color.White;
+            this.display71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display71.Location = new System.Drawing.Point(949, 319);
+            this.display71.Name = "display71";
+            this.display71.Size = new System.Drawing.Size(86, 80);
+            this.display71.TabIndex = 81;
+            this.display71.Text = "71";
+            this.display71.UseVisualStyleBackColor = false;
+            this.display71.Click += new System.EventHandler(this.display71_Click);
             // 
-            // display8
+            // display70
             // 
-            this.display8.AutoSize = true;
-            this.display8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display8.Location = new System.Drawing.Point(691, 0);
-            this.display8.Name = "display8";
-            this.display8.Size = new System.Drawing.Size(86, 80);
-            this.display8.TabIndex = 7;
-            this.display8.Text = "8";
-            this.display8.UseVisualStyleBackColor = true;
+            this.display70.AutoSize = true;
+            this.display70.BackColor = System.Drawing.Color.White;
+            this.display70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display70.Location = new System.Drawing.Point(863, 319);
+            this.display70.Name = "display70";
+            this.display70.Size = new System.Drawing.Size(86, 80);
+            this.display70.TabIndex = 80;
+            this.display70.Text = "70";
+            this.display70.UseVisualStyleBackColor = false;
+            this.display70.Click += new System.EventHandler(this.display70_Click);
             // 
-            // display9
+            // display69
             // 
-            this.display9.AutoSize = true;
-            this.display9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display9.Location = new System.Drawing.Point(777, 0);
-            this.display9.Name = "display9";
-            this.display9.Size = new System.Drawing.Size(86, 80);
-            this.display9.TabIndex = 8;
-            this.display9.Text = "9";
-            this.display9.UseVisualStyleBackColor = true;
+            this.display69.AutoSize = true;
+            this.display69.BackColor = System.Drawing.Color.White;
+            this.display69.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display69.Location = new System.Drawing.Point(777, 319);
+            this.display69.Name = "display69";
+            this.display69.Size = new System.Drawing.Size(86, 80);
+            this.display69.TabIndex = 79;
+            this.display69.Text = "69";
+            this.display69.UseVisualStyleBackColor = false;
+            this.display69.Click += new System.EventHandler(this.display69_Click);
             // 
-            // display10
+            // display68
             // 
-            this.display10.AutoSize = true;
-            this.display10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display10.Location = new System.Drawing.Point(863, 0);
-            this.display10.Name = "display10";
-            this.display10.Size = new System.Drawing.Size(86, 80);
-            this.display10.TabIndex = 9;
-            this.display10.Text = "10";
-            this.display10.UseVisualStyleBackColor = true;
+            this.display68.AutoSize = true;
+            this.display68.BackColor = System.Drawing.Color.White;
+            this.display68.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display68.Location = new System.Drawing.Point(691, 319);
+            this.display68.Name = "display68";
+            this.display68.Size = new System.Drawing.Size(86, 80);
+            this.display68.TabIndex = 78;
+            this.display68.Text = "68";
+            this.display68.UseVisualStyleBackColor = false;
+            this.display68.Click += new System.EventHandler(this.display68_Click);
             // 
-            // display11
+            // display67
             // 
-            this.display11.AutoSize = true;
-            this.display11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display11.Location = new System.Drawing.Point(949, 0);
-            this.display11.Name = "display11";
-            this.display11.Size = new System.Drawing.Size(86, 80);
-            this.display11.TabIndex = 10;
-            this.display11.Text = "11";
-            this.display11.UseVisualStyleBackColor = true;
+            this.display67.AutoSize = true;
+            this.display67.BackColor = System.Drawing.Color.White;
+            this.display67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display67.Location = new System.Drawing.Point(605, 319);
+            this.display67.Name = "display67";
+            this.display67.Size = new System.Drawing.Size(86, 80);
+            this.display67.TabIndex = 77;
+            this.display67.Text = "67";
+            this.display67.UseVisualStyleBackColor = false;
+            this.display67.Click += new System.EventHandler(this.display67_Click);
             // 
-            // display12
+            // display66
             // 
-            this.display12.AutoSize = true;
-            this.display12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display12.Location = new System.Drawing.Point(1035, 0);
-            this.display12.Name = "display12";
-            this.display12.Size = new System.Drawing.Size(86, 80);
-            this.display12.TabIndex = 11;
-            this.display12.Text = "12";
-            this.display12.UseVisualStyleBackColor = true;
+            this.display66.AutoSize = true;
+            this.display66.BackColor = System.Drawing.Color.White;
+            this.display66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display66.Location = new System.Drawing.Point(519, 319);
+            this.display66.Name = "display66";
+            this.display66.Size = new System.Drawing.Size(86, 80);
+            this.display66.TabIndex = 76;
+            this.display66.Text = "66";
+            this.display66.UseVisualStyleBackColor = false;
+            this.display66.Click += new System.EventHandler(this.display66_Click);
             // 
-            // display13
+            // display65
             // 
-            this.display13.AutoSize = true;
-            this.display13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display13.Location = new System.Drawing.Point(1121, 0);
-            this.display13.Name = "display13";
-            this.display13.Size = new System.Drawing.Size(86, 80);
-            this.display13.TabIndex = 12;
-            this.display13.Text = "13";
-            this.display13.UseVisualStyleBackColor = true;
+            this.display65.AutoSize = true;
+            this.display65.BackColor = System.Drawing.Color.White;
+            this.display65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display65.Location = new System.Drawing.Point(433, 319);
+            this.display65.Name = "display65";
+            this.display65.Size = new System.Drawing.Size(86, 80);
+            this.display65.TabIndex = 75;
+            this.display65.Text = "65";
+            this.display65.UseVisualStyleBackColor = false;
+            this.display65.Click += new System.EventHandler(this.display65_Click);
             // 
-            // display14
+            // display64
             // 
-            this.display14.AutoSize = true;
-            this.display14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display14.Location = new System.Drawing.Point(1207, 0);
-            this.display14.Name = "display14";
-            this.display14.Size = new System.Drawing.Size(86, 80);
-            this.display14.TabIndex = 13;
-            this.display14.Text = "14";
-            this.display14.UseVisualStyleBackColor = true;
+            this.display64.AutoSize = true;
+            this.display64.BackColor = System.Drawing.Color.White;
+            this.display64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display64.Location = new System.Drawing.Point(347, 319);
+            this.display64.Name = "display64";
+            this.display64.Size = new System.Drawing.Size(86, 80);
+            this.display64.TabIndex = 74;
+            this.display64.Text = "64";
+            this.display64.UseVisualStyleBackColor = false;
+            this.display64.Click += new System.EventHandler(this.display64_Click);
             // 
-            // display15
+            // display63
             // 
-            this.display15.AutoSize = true;
-            this.display15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display15.Location = new System.Drawing.Point(1293, 0);
-            this.display15.Name = "display15";
-            this.display15.Size = new System.Drawing.Size(86, 80);
-            this.display15.TabIndex = 14;
-            this.display15.Text = "15";
-            this.display15.UseVisualStyleBackColor = true;
+            this.display63.AutoSize = true;
+            this.display63.BackColor = System.Drawing.Color.White;
+            this.display63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display63.Location = new System.Drawing.Point(261, 319);
+            this.display63.Name = "display63";
+            this.display63.Size = new System.Drawing.Size(86, 80);
+            this.display63.TabIndex = 73;
+            this.display63.Text = "63";
+            this.display63.UseVisualStyleBackColor = false;
+            this.display63.Click += new System.EventHandler(this.display63_Click);
             // 
-            // label1
+            // display62
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 80);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "B";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.display62.AutoSize = true;
+            this.display62.BackColor = System.Drawing.Color.White;
+            this.display62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display62.Location = new System.Drawing.Point(175, 319);
+            this.display62.Name = "display62";
+            this.display62.Size = new System.Drawing.Size(86, 80);
+            this.display62.TabIndex = 86;
+            this.display62.Text = "62";
+            this.display62.UseVisualStyleBackColor = false;
+            this.display62.Click += new System.EventHandler(this.display62_Click);
             // 
-            // label2
+            // display46
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 82);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 80);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "I";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.display46.AutoSize = true;
+            this.display46.BackColor = System.Drawing.Color.White;
+            this.display46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display46.Location = new System.Drawing.Point(89, 239);
+            this.display46.Name = "display46";
+            this.display46.Size = new System.Drawing.Size(86, 80);
+            this.display46.TabIndex = 72;
+            this.display46.Text = "46";
+            this.display46.UseVisualStyleBackColor = false;
+            this.display46.Click += new System.EventHandler(this.display46_Click);
             // 
-            // label3
+            // display60
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 162);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 80);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "N";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.display60.AutoSize = true;
+            this.display60.BackColor = System.Drawing.Color.White;
+            this.display60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display60.Location = new System.Drawing.Point(1293, 239);
+            this.display60.Name = "display60";
+            this.display60.Size = new System.Drawing.Size(86, 80);
+            this.display60.TabIndex = 70;
+            this.display60.Text = "60";
+            this.display60.UseVisualStyleBackColor = false;
+            this.display60.Click += new System.EventHandler(this.display60_Click);
             // 
-            // label4
+            // display59
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 242);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 80);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "G";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.display59.AutoSize = true;
+            this.display59.BackColor = System.Drawing.Color.White;
+            this.display59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display59.Location = new System.Drawing.Point(1207, 239);
+            this.display59.Name = "display59";
+            this.display59.Size = new System.Drawing.Size(86, 80);
+            this.display59.TabIndex = 69;
+            this.display59.Text = "59";
+            this.display59.UseVisualStyleBackColor = false;
+            this.display59.Click += new System.EventHandler(this.display59_Click);
+            // 
+            // display58
+            // 
+            this.display58.AutoSize = true;
+            this.display58.BackColor = System.Drawing.Color.White;
+            this.display58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display58.Location = new System.Drawing.Point(1121, 239);
+            this.display58.Name = "display58";
+            this.display58.Size = new System.Drawing.Size(86, 80);
+            this.display58.TabIndex = 68;
+            this.display58.Text = "58";
+            this.display58.UseVisualStyleBackColor = false;
+            this.display58.Click += new System.EventHandler(this.display58_Click);
+            // 
+            // display57
+            // 
+            this.display57.AutoSize = true;
+            this.display57.BackColor = System.Drawing.Color.White;
+            this.display57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display57.Location = new System.Drawing.Point(1035, 239);
+            this.display57.Name = "display57";
+            this.display57.Size = new System.Drawing.Size(86, 80);
+            this.display57.TabIndex = 67;
+            this.display57.Text = "57";
+            this.display57.UseVisualStyleBackColor = false;
+            this.display57.Click += new System.EventHandler(this.display57_Click);
+            // 
+            // display56
+            // 
+            this.display56.AutoSize = true;
+            this.display56.BackColor = System.Drawing.Color.White;
+            this.display56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display56.Location = new System.Drawing.Point(949, 239);
+            this.display56.Name = "display56";
+            this.display56.Size = new System.Drawing.Size(86, 80);
+            this.display56.TabIndex = 66;
+            this.display56.Text = "56";
+            this.display56.UseVisualStyleBackColor = false;
+            this.display56.Click += new System.EventHandler(this.display56_Click);
+            // 
+            // display55
+            // 
+            this.display55.AutoSize = true;
+            this.display55.BackColor = System.Drawing.Color.White;
+            this.display55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display55.Location = new System.Drawing.Point(863, 239);
+            this.display55.Name = "display55";
+            this.display55.Size = new System.Drawing.Size(86, 80);
+            this.display55.TabIndex = 65;
+            this.display55.Text = "55";
+            this.display55.UseVisualStyleBackColor = false;
+            this.display55.Click += new System.EventHandler(this.display55_Click);
+            // 
+            // display54
+            // 
+            this.display54.AutoSize = true;
+            this.display54.BackColor = System.Drawing.Color.White;
+            this.display54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display54.Location = new System.Drawing.Point(777, 239);
+            this.display54.Name = "display54";
+            this.display54.Size = new System.Drawing.Size(86, 80);
+            this.display54.TabIndex = 64;
+            this.display54.Text = "54";
+            this.display54.UseVisualStyleBackColor = false;
+            this.display54.Click += new System.EventHandler(this.display54_Click);
+            // 
+            // display53
+            // 
+            this.display53.AutoSize = true;
+            this.display53.BackColor = System.Drawing.Color.White;
+            this.display53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display53.Location = new System.Drawing.Point(691, 239);
+            this.display53.Name = "display53";
+            this.display53.Size = new System.Drawing.Size(86, 80);
+            this.display53.TabIndex = 63;
+            this.display53.Text = "53";
+            this.display53.UseVisualStyleBackColor = false;
+            this.display53.Click += new System.EventHandler(this.display53_Click);
+            // 
+            // display52
+            // 
+            this.display52.AutoSize = true;
+            this.display52.BackColor = System.Drawing.Color.White;
+            this.display52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display52.Location = new System.Drawing.Point(605, 239);
+            this.display52.Name = "display52";
+            this.display52.Size = new System.Drawing.Size(86, 80);
+            this.display52.TabIndex = 62;
+            this.display52.Text = "52";
+            this.display52.UseVisualStyleBackColor = false;
+            this.display52.Click += new System.EventHandler(this.display52_Click);
+            // 
+            // display51
+            // 
+            this.display51.AutoSize = true;
+            this.display51.BackColor = System.Drawing.Color.White;
+            this.display51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display51.Location = new System.Drawing.Point(519, 239);
+            this.display51.Name = "display51";
+            this.display51.Size = new System.Drawing.Size(86, 80);
+            this.display51.TabIndex = 61;
+            this.display51.Text = "51";
+            this.display51.UseVisualStyleBackColor = false;
+            this.display51.Click += new System.EventHandler(this.display51_Click);
+            // 
+            // display50
+            // 
+            this.display50.AutoSize = true;
+            this.display50.BackColor = System.Drawing.Color.White;
+            this.display50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display50.Location = new System.Drawing.Point(433, 239);
+            this.display50.Name = "display50";
+            this.display50.Size = new System.Drawing.Size(86, 80);
+            this.display50.TabIndex = 60;
+            this.display50.Text = "50";
+            this.display50.UseVisualStyleBackColor = false;
+            this.display50.Click += new System.EventHandler(this.display50_Click);
+            // 
+            // display49
+            // 
+            this.display49.AutoSize = true;
+            this.display49.BackColor = System.Drawing.Color.White;
+            this.display49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display49.Location = new System.Drawing.Point(347, 239);
+            this.display49.Name = "display49";
+            this.display49.Size = new System.Drawing.Size(86, 80);
+            this.display49.TabIndex = 59;
+            this.display49.Text = "49";
+            this.display49.UseVisualStyleBackColor = false;
+            this.display49.Click += new System.EventHandler(this.display49_Click);
+            // 
+            // display48
+            // 
+            this.display48.AutoSize = true;
+            this.display48.BackColor = System.Drawing.Color.White;
+            this.display48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display48.Location = new System.Drawing.Point(261, 239);
+            this.display48.Name = "display48";
+            this.display48.Size = new System.Drawing.Size(86, 80);
+            this.display48.TabIndex = 58;
+            this.display48.Text = "48";
+            this.display48.UseVisualStyleBackColor = false;
+            this.display48.Click += new System.EventHandler(this.display48_Click);
+            // 
+            // display47
+            // 
+            this.display47.AutoSize = true;
+            this.display47.BackColor = System.Drawing.Color.White;
+            this.display47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display47.Location = new System.Drawing.Point(175, 239);
+            this.display47.Name = "display47";
+            this.display47.Size = new System.Drawing.Size(86, 80);
+            this.display47.TabIndex = 71;
+            this.display47.Text = "47";
+            this.display47.UseVisualStyleBackColor = false;
+            this.display47.Click += new System.EventHandler(this.display47_Click);
+            // 
+            // display31
+            // 
+            this.display31.AutoSize = true;
+            this.display31.BackColor = System.Drawing.Color.White;
+            this.display31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display31.Location = new System.Drawing.Point(89, 159);
+            this.display31.Name = "display31";
+            this.display31.Size = new System.Drawing.Size(86, 80);
+            this.display31.TabIndex = 57;
+            this.display31.Text = "31";
+            this.display31.UseVisualStyleBackColor = false;
+            this.display31.Click += new System.EventHandler(this.display31_Click);
+            // 
+            // display45
+            // 
+            this.display45.AutoSize = true;
+            this.display45.BackColor = System.Drawing.Color.White;
+            this.display45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display45.Location = new System.Drawing.Point(1293, 159);
+            this.display45.Name = "display45";
+            this.display45.Size = new System.Drawing.Size(86, 80);
+            this.display45.TabIndex = 55;
+            this.display45.Text = "45";
+            this.display45.UseVisualStyleBackColor = false;
+            this.display45.Click += new System.EventHandler(this.display45_Click);
+            // 
+            // display44
+            // 
+            this.display44.AutoSize = true;
+            this.display44.BackColor = System.Drawing.Color.White;
+            this.display44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display44.Location = new System.Drawing.Point(1207, 159);
+            this.display44.Name = "display44";
+            this.display44.Size = new System.Drawing.Size(86, 80);
+            this.display44.TabIndex = 54;
+            this.display44.Text = "44";
+            this.display44.UseVisualStyleBackColor = false;
+            this.display44.Click += new System.EventHandler(this.display44_Click);
+            // 
+            // display43
+            // 
+            this.display43.AutoSize = true;
+            this.display43.BackColor = System.Drawing.Color.White;
+            this.display43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display43.Location = new System.Drawing.Point(1121, 159);
+            this.display43.Name = "display43";
+            this.display43.Size = new System.Drawing.Size(86, 80);
+            this.display43.TabIndex = 53;
+            this.display43.Text = "43";
+            this.display43.UseVisualStyleBackColor = false;
+            this.display43.Click += new System.EventHandler(this.display43_Click);
+            // 
+            // display42
+            // 
+            this.display42.AutoSize = true;
+            this.display42.BackColor = System.Drawing.Color.White;
+            this.display42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display42.Location = new System.Drawing.Point(1035, 159);
+            this.display42.Name = "display42";
+            this.display42.Size = new System.Drawing.Size(86, 80);
+            this.display42.TabIndex = 52;
+            this.display42.Text = "42";
+            this.display42.UseVisualStyleBackColor = false;
+            this.display42.Click += new System.EventHandler(this.display42_Click);
+            // 
+            // display41
+            // 
+            this.display41.AutoSize = true;
+            this.display41.BackColor = System.Drawing.Color.White;
+            this.display41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display41.Location = new System.Drawing.Point(949, 159);
+            this.display41.Name = "display41";
+            this.display41.Size = new System.Drawing.Size(86, 80);
+            this.display41.TabIndex = 51;
+            this.display41.Text = "41";
+            this.display41.UseVisualStyleBackColor = false;
+            this.display41.Click += new System.EventHandler(this.display41_Click);
+            // 
+            // display40
+            // 
+            this.display40.AutoSize = true;
+            this.display40.BackColor = System.Drawing.Color.White;
+            this.display40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display40.Location = new System.Drawing.Point(863, 159);
+            this.display40.Name = "display40";
+            this.display40.Size = new System.Drawing.Size(86, 80);
+            this.display40.TabIndex = 50;
+            this.display40.Text = "40";
+            this.display40.UseVisualStyleBackColor = false;
+            this.display40.Click += new System.EventHandler(this.display40_Click);
+            // 
+            // display39
+            // 
+            this.display39.AutoSize = true;
+            this.display39.BackColor = System.Drawing.Color.White;
+            this.display39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display39.Location = new System.Drawing.Point(777, 159);
+            this.display39.Name = "display39";
+            this.display39.Size = new System.Drawing.Size(86, 80);
+            this.display39.TabIndex = 49;
+            this.display39.Text = "39";
+            this.display39.UseVisualStyleBackColor = false;
+            this.display39.Click += new System.EventHandler(this.display39_Click);
+            // 
+            // display38
+            // 
+            this.display38.AutoSize = true;
+            this.display38.BackColor = System.Drawing.Color.White;
+            this.display38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display38.Location = new System.Drawing.Point(691, 159);
+            this.display38.Name = "display38";
+            this.display38.Size = new System.Drawing.Size(86, 80);
+            this.display38.TabIndex = 48;
+            this.display38.Text = "38";
+            this.display38.UseVisualStyleBackColor = false;
+            this.display38.Click += new System.EventHandler(this.display38_Click);
+            // 
+            // display37
+            // 
+            this.display37.AutoSize = true;
+            this.display37.BackColor = System.Drawing.Color.White;
+            this.display37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display37.Location = new System.Drawing.Point(605, 159);
+            this.display37.Name = "display37";
+            this.display37.Size = new System.Drawing.Size(86, 80);
+            this.display37.TabIndex = 47;
+            this.display37.Text = "37";
+            this.display37.UseVisualStyleBackColor = false;
+            this.display37.Click += new System.EventHandler(this.display37_Click);
+            // 
+            // display36
+            // 
+            this.display36.AutoSize = true;
+            this.display36.BackColor = System.Drawing.Color.White;
+            this.display36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display36.Location = new System.Drawing.Point(519, 159);
+            this.display36.Name = "display36";
+            this.display36.Size = new System.Drawing.Size(86, 80);
+            this.display36.TabIndex = 46;
+            this.display36.Text = "36";
+            this.display36.UseVisualStyleBackColor = false;
+            this.display36.Click += new System.EventHandler(this.display36_Click);
+            // 
+            // display35
+            // 
+            this.display35.AutoSize = true;
+            this.display35.BackColor = System.Drawing.Color.White;
+            this.display35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display35.Location = new System.Drawing.Point(433, 159);
+            this.display35.Name = "display35";
+            this.display35.Size = new System.Drawing.Size(86, 80);
+            this.display35.TabIndex = 45;
+            this.display35.Text = "35";
+            this.display35.UseVisualStyleBackColor = false;
+            this.display35.Click += new System.EventHandler(this.display35_Click);
+            // 
+            // display34
+            // 
+            this.display34.AutoSize = true;
+            this.display34.BackColor = System.Drawing.Color.White;
+            this.display34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display34.Location = new System.Drawing.Point(347, 159);
+            this.display34.Name = "display34";
+            this.display34.Size = new System.Drawing.Size(86, 80);
+            this.display34.TabIndex = 44;
+            this.display34.Text = "34";
+            this.display34.UseVisualStyleBackColor = false;
+            this.display34.Click += new System.EventHandler(this.display34_Click);
+            // 
+            // display33
+            // 
+            this.display33.AutoSize = true;
+            this.display33.BackColor = System.Drawing.Color.White;
+            this.display33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display33.Location = new System.Drawing.Point(261, 159);
+            this.display33.Name = "display33";
+            this.display33.Size = new System.Drawing.Size(86, 80);
+            this.display33.TabIndex = 43;
+            this.display33.Text = "33";
+            this.display33.UseVisualStyleBackColor = false;
+            this.display33.Click += new System.EventHandler(this.display33_Click);
+            // 
+            // display32
+            // 
+            this.display32.AutoSize = true;
+            this.display32.BackColor = System.Drawing.Color.White;
+            this.display32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display32.Location = new System.Drawing.Point(175, 159);
+            this.display32.Name = "display32";
+            this.display32.Size = new System.Drawing.Size(86, 80);
+            this.display32.TabIndex = 56;
+            this.display32.Text = "32";
+            this.display32.UseVisualStyleBackColor = false;
+            this.display32.Click += new System.EventHandler(this.display32_Click);
+            // 
+            // display16
+            // 
+            this.display16.AutoSize = true;
+            this.display16.BackColor = System.Drawing.Color.White;
+            this.display16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display16.Location = new System.Drawing.Point(89, 79);
+            this.display16.Name = "display16";
+            this.display16.Size = new System.Drawing.Size(86, 80);
+            this.display16.TabIndex = 42;
+            this.display16.Text = "16";
+            this.display16.UseVisualStyleBackColor = false;
+            this.display16.Click += new System.EventHandler(this.display16_Click);
+            // 
+            // display30
+            // 
+            this.display30.AutoSize = true;
+            this.display30.BackColor = System.Drawing.Color.White;
+            this.display30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display30.Location = new System.Drawing.Point(1293, 79);
+            this.display30.Name = "display30";
+            this.display30.Size = new System.Drawing.Size(86, 80);
+            this.display30.TabIndex = 40;
+            this.display30.Text = "30";
+            this.display30.UseVisualStyleBackColor = false;
+            this.display30.Click += new System.EventHandler(this.display30_Click);
+            // 
+            // display29
+            // 
+            this.display29.AutoSize = true;
+            this.display29.BackColor = System.Drawing.Color.White;
+            this.display29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display29.Location = new System.Drawing.Point(1207, 79);
+            this.display29.Name = "display29";
+            this.display29.Size = new System.Drawing.Size(86, 80);
+            this.display29.TabIndex = 39;
+            this.display29.Text = "29";
+            this.display29.UseVisualStyleBackColor = false;
+            this.display29.Click += new System.EventHandler(this.display29_Click);
+            // 
+            // display28
+            // 
+            this.display28.AutoSize = true;
+            this.display28.BackColor = System.Drawing.Color.White;
+            this.display28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display28.Location = new System.Drawing.Point(1121, 79);
+            this.display28.Name = "display28";
+            this.display28.Size = new System.Drawing.Size(86, 80);
+            this.display28.TabIndex = 38;
+            this.display28.Text = "28";
+            this.display28.UseVisualStyleBackColor = false;
+            this.display28.Click += new System.EventHandler(this.display28_Click);
+            // 
+            // display27
+            // 
+            this.display27.AutoSize = true;
+            this.display27.BackColor = System.Drawing.Color.White;
+            this.display27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display27.Location = new System.Drawing.Point(1035, 79);
+            this.display27.Name = "display27";
+            this.display27.Size = new System.Drawing.Size(86, 80);
+            this.display27.TabIndex = 37;
+            this.display27.Text = "27";
+            this.display27.UseVisualStyleBackColor = false;
+            this.display27.Click += new System.EventHandler(this.display27_Click);
+            // 
+            // display26
+            // 
+            this.display26.AutoSize = true;
+            this.display26.BackColor = System.Drawing.Color.White;
+            this.display26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display26.Location = new System.Drawing.Point(949, 79);
+            this.display26.Name = "display26";
+            this.display26.Size = new System.Drawing.Size(86, 80);
+            this.display26.TabIndex = 36;
+            this.display26.Text = "26";
+            this.display26.UseVisualStyleBackColor = false;
+            this.display26.Click += new System.EventHandler(this.display26_Click);
+            // 
+            // display25
+            // 
+            this.display25.AutoSize = true;
+            this.display25.BackColor = System.Drawing.Color.White;
+            this.display25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display25.Location = new System.Drawing.Point(863, 79);
+            this.display25.Name = "display25";
+            this.display25.Size = new System.Drawing.Size(86, 80);
+            this.display25.TabIndex = 35;
+            this.display25.Text = "25";
+            this.display25.UseVisualStyleBackColor = false;
+            this.display25.Click += new System.EventHandler(this.display25_Click);
+            // 
+            // display24
+            // 
+            this.display24.AutoSize = true;
+            this.display24.BackColor = System.Drawing.Color.White;
+            this.display24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display24.Location = new System.Drawing.Point(777, 79);
+            this.display24.Name = "display24";
+            this.display24.Size = new System.Drawing.Size(86, 80);
+            this.display24.TabIndex = 34;
+            this.display24.Text = "24";
+            this.display24.UseVisualStyleBackColor = false;
+            this.display24.Click += new System.EventHandler(this.display24_Click);
+            // 
+            // display23
+            // 
+            this.display23.AutoSize = true;
+            this.display23.BackColor = System.Drawing.Color.White;
+            this.display23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display23.Location = new System.Drawing.Point(691, 79);
+            this.display23.Name = "display23";
+            this.display23.Size = new System.Drawing.Size(86, 80);
+            this.display23.TabIndex = 33;
+            this.display23.Text = "23";
+            this.display23.UseVisualStyleBackColor = false;
+            this.display23.Click += new System.EventHandler(this.display23_Click);
+            // 
+            // display22
+            // 
+            this.display22.AutoSize = true;
+            this.display22.BackColor = System.Drawing.Color.White;
+            this.display22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display22.Location = new System.Drawing.Point(605, 79);
+            this.display22.Name = "display22";
+            this.display22.Size = new System.Drawing.Size(86, 80);
+            this.display22.TabIndex = 32;
+            this.display22.Text = "22";
+            this.display22.UseVisualStyleBackColor = false;
+            this.display22.Click += new System.EventHandler(this.display22_Click);
+            // 
+            // display21
+            // 
+            this.display21.AutoSize = true;
+            this.display21.BackColor = System.Drawing.Color.White;
+            this.display21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display21.Location = new System.Drawing.Point(519, 79);
+            this.display21.Name = "display21";
+            this.display21.Size = new System.Drawing.Size(86, 80);
+            this.display21.TabIndex = 31;
+            this.display21.Text = "21";
+            this.display21.UseVisualStyleBackColor = false;
+            this.display21.Click += new System.EventHandler(this.display21_Click);
+            // 
+            // display20
+            // 
+            this.display20.AutoSize = true;
+            this.display20.BackColor = System.Drawing.Color.White;
+            this.display20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display20.Location = new System.Drawing.Point(433, 79);
+            this.display20.Name = "display20";
+            this.display20.Size = new System.Drawing.Size(86, 80);
+            this.display20.TabIndex = 30;
+            this.display20.Text = "20";
+            this.display20.UseVisualStyleBackColor = false;
+            this.display20.Click += new System.EventHandler(this.display20_Click);
+            // 
+            // display19
+            // 
+            this.display19.AutoSize = true;
+            this.display19.BackColor = System.Drawing.Color.White;
+            this.display19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display19.Location = new System.Drawing.Point(347, 79);
+            this.display19.Name = "display19";
+            this.display19.Size = new System.Drawing.Size(86, 80);
+            this.display19.TabIndex = 29;
+            this.display19.Text = "19";
+            this.display19.UseVisualStyleBackColor = false;
+            this.display19.Click += new System.EventHandler(this.display19_Click);
+            // 
+            // display18
+            // 
+            this.display18.AutoSize = true;
+            this.display18.BackColor = System.Drawing.Color.White;
+            this.display18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display18.Location = new System.Drawing.Point(261, 79);
+            this.display18.Name = "display18";
+            this.display18.Size = new System.Drawing.Size(86, 80);
+            this.display18.TabIndex = 28;
+            this.display18.Text = "18";
+            this.display18.UseVisualStyleBackColor = false;
+            this.display18.Click += new System.EventHandler(this.display18_Click);
+            // 
+            // display17
+            // 
+            this.display17.AutoSize = true;
+            this.display17.BackColor = System.Drawing.Color.White;
+            this.display17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display17.Location = new System.Drawing.Point(175, 79);
+            this.display17.Name = "display17";
+            this.display17.Size = new System.Drawing.Size(86, 80);
+            this.display17.TabIndex = 41;
+            this.display17.Text = "17";
+            this.display17.UseVisualStyleBackColor = false;
+            this.display17.Click += new System.EventHandler(this.display17_Click);
+            // 
+            // display1
+            // 
+            this.display1.AutoSize = true;
+            this.display1.BackColor = System.Drawing.Color.White;
+            this.display1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display1.Location = new System.Drawing.Point(89, -1);
+            this.display1.Name = "display1";
+            this.display1.Size = new System.Drawing.Size(86, 80);
+            this.display1.TabIndex = 27;
+            this.display1.Text = "1";
+            this.display1.UseVisualStyleBackColor = false;
+            this.display1.Click += new System.EventHandler(this.display1_Click);
             // 
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label5.BackColor = System.Drawing.Color.Gold;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 322);
+            this.label5.Location = new System.Drawing.Point(3, 320);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 80);
+            this.label5.Size = new System.Drawing.Size(86, 79);
             this.label5.TabIndex = 26;
             this.label5.Text = "O";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // display1
-            // 
-            this.display1.AutoSize = true;
-            this.display1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display1.Location = new System.Drawing.Point(89, 0);
-            this.display1.Name = "display1";
-            this.display1.Size = new System.Drawing.Size(86, 80);
-            this.display1.TabIndex = 27;
-            this.display1.Text = "1";
-            this.display1.UseVisualStyleBackColor = true;
-            // 
-            // display16
-            // 
-            this.display16.AutoSize = true;
-            this.display16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display16.Location = new System.Drawing.Point(89, 81);
-            this.display16.Name = "display16";
-            this.display16.Size = new System.Drawing.Size(86, 80);
-            this.display16.TabIndex = 42;
-            this.display16.Text = "16";
-            this.display16.UseVisualStyleBackColor = true;
-            // 
-            // display30
-            // 
-            this.display30.AutoSize = true;
-            this.display30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display30.Location = new System.Drawing.Point(1293, 81);
-            this.display30.Name = "display30";
-            this.display30.Size = new System.Drawing.Size(86, 80);
-            this.display30.TabIndex = 40;
-            this.display30.Text = "30";
-            this.display30.UseVisualStyleBackColor = true;
-            // 
-            // display29
-            // 
-            this.display29.AutoSize = true;
-            this.display29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display29.Location = new System.Drawing.Point(1207, 81);
-            this.display29.Name = "display29";
-            this.display29.Size = new System.Drawing.Size(86, 80);
-            this.display29.TabIndex = 39;
-            this.display29.Text = "29";
-            this.display29.UseVisualStyleBackColor = true;
-            // 
-            // display28
-            // 
-            this.display28.AutoSize = true;
-            this.display28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display28.Location = new System.Drawing.Point(1121, 81);
-            this.display28.Name = "display28";
-            this.display28.Size = new System.Drawing.Size(86, 80);
-            this.display28.TabIndex = 38;
-            this.display28.Text = "28";
-            this.display28.UseVisualStyleBackColor = true;
-            // 
-            // display27
-            // 
-            this.display27.AutoSize = true;
-            this.display27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display27.Location = new System.Drawing.Point(1035, 81);
-            this.display27.Name = "display27";
-            this.display27.Size = new System.Drawing.Size(86, 80);
-            this.display27.TabIndex = 37;
-            this.display27.Text = "27";
-            this.display27.UseVisualStyleBackColor = true;
-            // 
-            // display26
-            // 
-            this.display26.AutoSize = true;
-            this.display26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display26.Location = new System.Drawing.Point(949, 81);
-            this.display26.Name = "display26";
-            this.display26.Size = new System.Drawing.Size(86, 80);
-            this.display26.TabIndex = 36;
-            this.display26.Text = "26";
-            this.display26.UseVisualStyleBackColor = true;
-            // 
-            // display25
-            // 
-            this.display25.AutoSize = true;
-            this.display25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display25.Location = new System.Drawing.Point(863, 81);
-            this.display25.Name = "display25";
-            this.display25.Size = new System.Drawing.Size(86, 80);
-            this.display25.TabIndex = 35;
-            this.display25.Text = "25";
-            this.display25.UseVisualStyleBackColor = true;
-            // 
-            // display24
-            // 
-            this.display24.AutoSize = true;
-            this.display24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display24.Location = new System.Drawing.Point(777, 81);
-            this.display24.Name = "display24";
-            this.display24.Size = new System.Drawing.Size(86, 80);
-            this.display24.TabIndex = 34;
-            this.display24.Text = "24";
-            this.display24.UseVisualStyleBackColor = true;
-            // 
-            // display23
-            // 
-            this.display23.AutoSize = true;
-            this.display23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display23.Location = new System.Drawing.Point(691, 81);
-            this.display23.Name = "display23";
-            this.display23.Size = new System.Drawing.Size(86, 80);
-            this.display23.TabIndex = 33;
-            this.display23.Text = "23";
-            this.display23.UseVisualStyleBackColor = true;
-            // 
-            // display22
-            // 
-            this.display22.AutoSize = true;
-            this.display22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display22.Location = new System.Drawing.Point(605, 81);
-            this.display22.Name = "display22";
-            this.display22.Size = new System.Drawing.Size(86, 80);
-            this.display22.TabIndex = 32;
-            this.display22.Text = "22";
-            this.display22.UseVisualStyleBackColor = true;
-            // 
-            // display21
-            // 
-            this.display21.AutoSize = true;
-            this.display21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display21.Location = new System.Drawing.Point(519, 81);
-            this.display21.Name = "display21";
-            this.display21.Size = new System.Drawing.Size(86, 80);
-            this.display21.TabIndex = 31;
-            this.display21.Text = "21";
-            this.display21.UseVisualStyleBackColor = true;
-            // 
-            // display20
-            // 
-            this.display20.AutoSize = true;
-            this.display20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display20.Location = new System.Drawing.Point(433, 81);
-            this.display20.Name = "display20";
-            this.display20.Size = new System.Drawing.Size(86, 80);
-            this.display20.TabIndex = 30;
-            this.display20.Text = "20";
-            this.display20.UseVisualStyleBackColor = true;
-            // 
-            // display19
-            // 
-            this.display19.AutoSize = true;
-            this.display19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display19.Location = new System.Drawing.Point(347, 81);
-            this.display19.Name = "display19";
-            this.display19.Size = new System.Drawing.Size(86, 80);
-            this.display19.TabIndex = 29;
-            this.display19.Text = "19";
-            this.display19.UseVisualStyleBackColor = true;
-            // 
-            // display18
-            // 
-            this.display18.AutoSize = true;
-            this.display18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display18.Location = new System.Drawing.Point(261, 81);
-            this.display18.Name = "display18";
-            this.display18.Size = new System.Drawing.Size(86, 80);
-            this.display18.TabIndex = 28;
-            this.display18.Text = "18";
-            this.display18.UseVisualStyleBackColor = true;
-            // 
-            // display17
-            // 
-            this.display17.AutoSize = true;
-            this.display17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display17.Location = new System.Drawing.Point(175, 81);
-            this.display17.Name = "display17";
-            this.display17.Size = new System.Drawing.Size(86, 80);
-            this.display17.TabIndex = 41;
-            this.display17.Text = "17";
-            this.display17.UseVisualStyleBackColor = true;
-            // 
-            // display31
-            // 
-            this.display31.AutoSize = true;
-            this.display31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display31.Location = new System.Drawing.Point(89, 161);
-            this.display31.Name = "display31";
-            this.display31.Size = new System.Drawing.Size(86, 80);
-            this.display31.TabIndex = 57;
-            this.display31.Text = "31";
-            this.display31.UseVisualStyleBackColor = true;
-            // 
-            // display45
-            // 
-            this.display45.AutoSize = true;
-            this.display45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display45.Location = new System.Drawing.Point(1293, 161);
-            this.display45.Name = "display45";
-            this.display45.Size = new System.Drawing.Size(86, 80);
-            this.display45.TabIndex = 55;
-            this.display45.Text = "45";
-            this.display45.UseVisualStyleBackColor = true;
-            // 
-            // display44
-            // 
-            this.display44.AutoSize = true;
-            this.display44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display44.Location = new System.Drawing.Point(1207, 161);
-            this.display44.Name = "display44";
-            this.display44.Size = new System.Drawing.Size(86, 80);
-            this.display44.TabIndex = 54;
-            this.display44.Text = "44";
-            this.display44.UseVisualStyleBackColor = true;
-            // 
-            // display43
-            // 
-            this.display43.AutoSize = true;
-            this.display43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display43.Location = new System.Drawing.Point(1121, 161);
-            this.display43.Name = "display43";
-            this.display43.Size = new System.Drawing.Size(86, 80);
-            this.display43.TabIndex = 53;
-            this.display43.Text = "43";
-            this.display43.UseVisualStyleBackColor = true;
-            // 
-            // display42
-            // 
-            this.display42.AutoSize = true;
-            this.display42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display42.Location = new System.Drawing.Point(1035, 161);
-            this.display42.Name = "display42";
-            this.display42.Size = new System.Drawing.Size(86, 80);
-            this.display42.TabIndex = 52;
-            this.display42.Text = "42";
-            this.display42.UseVisualStyleBackColor = true;
-            // 
-            // display41
-            // 
-            this.display41.AutoSize = true;
-            this.display41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display41.Location = new System.Drawing.Point(949, 161);
-            this.display41.Name = "display41";
-            this.display41.Size = new System.Drawing.Size(86, 80);
-            this.display41.TabIndex = 51;
-            this.display41.Text = "41";
-            this.display41.UseVisualStyleBackColor = true;
-            // 
-            // display40
-            // 
-            this.display40.AutoSize = true;
-            this.display40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display40.Location = new System.Drawing.Point(863, 161);
-            this.display40.Name = "display40";
-            this.display40.Size = new System.Drawing.Size(86, 80);
-            this.display40.TabIndex = 50;
-            this.display40.Text = "40";
-            this.display40.UseVisualStyleBackColor = true;
-            // 
-            // display39
-            // 
-            this.display39.AutoSize = true;
-            this.display39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display39.Location = new System.Drawing.Point(777, 161);
-            this.display39.Name = "display39";
-            this.display39.Size = new System.Drawing.Size(86, 80);
-            this.display39.TabIndex = 49;
-            this.display39.Text = "39";
-            this.display39.UseVisualStyleBackColor = true;
-            // 
-            // display38
-            // 
-            this.display38.AutoSize = true;
-            this.display38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display38.Location = new System.Drawing.Point(691, 161);
-            this.display38.Name = "display38";
-            this.display38.Size = new System.Drawing.Size(86, 80);
-            this.display38.TabIndex = 48;
-            this.display38.Text = "38";
-            this.display38.UseVisualStyleBackColor = true;
-            // 
-            // display37
-            // 
-            this.display37.AutoSize = true;
-            this.display37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display37.Location = new System.Drawing.Point(605, 161);
-            this.display37.Name = "display37";
-            this.display37.Size = new System.Drawing.Size(86, 80);
-            this.display37.TabIndex = 47;
-            this.display37.Text = "37";
-            this.display37.UseVisualStyleBackColor = true;
-            // 
-            // display36
-            // 
-            this.display36.AutoSize = true;
-            this.display36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display36.Location = new System.Drawing.Point(519, 161);
-            this.display36.Name = "display36";
-            this.display36.Size = new System.Drawing.Size(86, 80);
-            this.display36.TabIndex = 46;
-            this.display36.Text = "36";
-            this.display36.UseVisualStyleBackColor = true;
-            // 
-            // display35
-            // 
-            this.display35.AutoSize = true;
-            this.display35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display35.Location = new System.Drawing.Point(433, 161);
-            this.display35.Name = "display35";
-            this.display35.Size = new System.Drawing.Size(86, 80);
-            this.display35.TabIndex = 45;
-            this.display35.Text = "35";
-            this.display35.UseVisualStyleBackColor = true;
-            // 
-            // display34
-            // 
-            this.display34.AutoSize = true;
-            this.display34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display34.Location = new System.Drawing.Point(347, 161);
-            this.display34.Name = "display34";
-            this.display34.Size = new System.Drawing.Size(86, 80);
-            this.display34.TabIndex = 44;
-            this.display34.Text = "34";
-            this.display34.UseVisualStyleBackColor = true;
-            // 
-            // display33
-            // 
-            this.display33.AutoSize = true;
-            this.display33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display33.Location = new System.Drawing.Point(261, 161);
-            this.display33.Name = "display33";
-            this.display33.Size = new System.Drawing.Size(86, 80);
-            this.display33.TabIndex = 43;
-            this.display33.Text = "33";
-            this.display33.UseVisualStyleBackColor = true;
-            // 
-            // display32
-            // 
-            this.display32.AutoSize = true;
-            this.display32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display32.Location = new System.Drawing.Point(175, 161);
-            this.display32.Name = "display32";
-            this.display32.Size = new System.Drawing.Size(86, 80);
-            this.display32.TabIndex = 56;
-            this.display32.Text = "32";
-            this.display32.UseVisualStyleBackColor = true;
-            // 
-            // display46
-            // 
-            this.display46.AutoSize = true;
-            this.display46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display46.Location = new System.Drawing.Point(89, 241);
-            this.display46.Name = "display46";
-            this.display46.Size = new System.Drawing.Size(86, 80);
-            this.display46.TabIndex = 72;
-            this.display46.Text = "46";
-            this.display46.UseVisualStyleBackColor = true;
-            // 
-            // display60
-            // 
-            this.display60.AutoSize = true;
-            this.display60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display60.Location = new System.Drawing.Point(1293, 241);
-            this.display60.Name = "display60";
-            this.display60.Size = new System.Drawing.Size(86, 80);
-            this.display60.TabIndex = 70;
-            this.display60.Text = "60";
-            this.display60.UseVisualStyleBackColor = true;
-            // 
-            // display59
-            // 
-            this.display59.AutoSize = true;
-            this.display59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display59.Location = new System.Drawing.Point(1207, 241);
-            this.display59.Name = "display59";
-            this.display59.Size = new System.Drawing.Size(86, 80);
-            this.display59.TabIndex = 69;
-            this.display59.Text = "59";
-            this.display59.UseVisualStyleBackColor = true;
-            // 
-            // display58
-            // 
-            this.display58.AutoSize = true;
-            this.display58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display58.Location = new System.Drawing.Point(1121, 241);
-            this.display58.Name = "display58";
-            this.display58.Size = new System.Drawing.Size(86, 80);
-            this.display58.TabIndex = 68;
-            this.display58.Text = "58";
-            this.display58.UseVisualStyleBackColor = true;
-            // 
-            // display57
-            // 
-            this.display57.AutoSize = true;
-            this.display57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display57.Location = new System.Drawing.Point(1035, 241);
-            this.display57.Name = "display57";
-            this.display57.Size = new System.Drawing.Size(86, 80);
-            this.display57.TabIndex = 67;
-            this.display57.Text = "57";
-            this.display57.UseVisualStyleBackColor = true;
-            // 
-            // display56
-            // 
-            this.display56.AutoSize = true;
-            this.display56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display56.Location = new System.Drawing.Point(949, 241);
-            this.display56.Name = "display56";
-            this.display56.Size = new System.Drawing.Size(86, 80);
-            this.display56.TabIndex = 66;
-            this.display56.Text = "56";
-            this.display56.UseVisualStyleBackColor = true;
-            // 
-            // display55
-            // 
-            this.display55.AutoSize = true;
-            this.display55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display55.Location = new System.Drawing.Point(863, 241);
-            this.display55.Name = "display55";
-            this.display55.Size = new System.Drawing.Size(86, 80);
-            this.display55.TabIndex = 65;
-            this.display55.Text = "55";
-            this.display55.UseVisualStyleBackColor = true;
-            // 
-            // display54
-            // 
-            this.display54.AutoSize = true;
-            this.display54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display54.Location = new System.Drawing.Point(777, 241);
-            this.display54.Name = "display54";
-            this.display54.Size = new System.Drawing.Size(86, 80);
-            this.display54.TabIndex = 64;
-            this.display54.Text = "54";
-            this.display54.UseVisualStyleBackColor = true;
-            // 
-            // display53
-            // 
-            this.display53.AutoSize = true;
-            this.display53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display53.Location = new System.Drawing.Point(691, 241);
-            this.display53.Name = "display53";
-            this.display53.Size = new System.Drawing.Size(86, 80);
-            this.display53.TabIndex = 63;
-            this.display53.Text = "53";
-            this.display53.UseVisualStyleBackColor = true;
-            // 
-            // display52
-            // 
-            this.display52.AutoSize = true;
-            this.display52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display52.Location = new System.Drawing.Point(605, 241);
-            this.display52.Name = "display52";
-            this.display52.Size = new System.Drawing.Size(86, 80);
-            this.display52.TabIndex = 62;
-            this.display52.Text = "52";
-            this.display52.UseVisualStyleBackColor = true;
-            // 
-            // display51
-            // 
-            this.display51.AutoSize = true;
-            this.display51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display51.Location = new System.Drawing.Point(519, 241);
-            this.display51.Name = "display51";
-            this.display51.Size = new System.Drawing.Size(86, 80);
-            this.display51.TabIndex = 61;
-            this.display51.Text = "51";
-            this.display51.UseVisualStyleBackColor = true;
-            // 
-            // display50
-            // 
-            this.display50.AutoSize = true;
-            this.display50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display50.Location = new System.Drawing.Point(433, 241);
-            this.display50.Name = "display50";
-            this.display50.Size = new System.Drawing.Size(86, 80);
-            this.display50.TabIndex = 60;
-            this.display50.Text = "50";
-            this.display50.UseVisualStyleBackColor = true;
-            // 
-            // display49
-            // 
-            this.display49.AutoSize = true;
-            this.display49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display49.Location = new System.Drawing.Point(347, 241);
-            this.display49.Name = "display49";
-            this.display49.Size = new System.Drawing.Size(86, 80);
-            this.display49.TabIndex = 59;
-            this.display49.Text = "49";
-            this.display49.UseVisualStyleBackColor = true;
-            // 
-            // display48
-            // 
-            this.display48.AutoSize = true;
-            this.display48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display48.Location = new System.Drawing.Point(261, 241);
-            this.display48.Name = "display48";
-            this.display48.Size = new System.Drawing.Size(86, 80);
-            this.display48.TabIndex = 58;
-            this.display48.Text = "48";
-            this.display48.UseVisualStyleBackColor = true;
-            // 
-            // display47
-            // 
-            this.display47.AutoSize = true;
-            this.display47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display47.Location = new System.Drawing.Point(175, 241);
-            this.display47.Name = "display47";
-            this.display47.Size = new System.Drawing.Size(86, 80);
-            this.display47.TabIndex = 71;
-            this.display47.Text = "47";
-            this.display47.UseVisualStyleBackColor = true;
-            // 
-            // display61
-            // 
-            this.display61.AutoSize = true;
-            this.display61.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display61.Location = new System.Drawing.Point(89, 321);
-            this.display61.Name = "display61";
-            this.display61.Size = new System.Drawing.Size(86, 80);
-            this.display61.TabIndex = 87;
-            this.display61.Text = "61";
-            this.display61.UseVisualStyleBackColor = true;
-            // 
-            // display75
-            // 
-            this.display75.AutoSize = true;
-            this.display75.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display75.Location = new System.Drawing.Point(1293, 321);
-            this.display75.Name = "display75";
-            this.display75.Size = new System.Drawing.Size(86, 80);
-            this.display75.TabIndex = 85;
-            this.display75.Text = "75";
-            this.display75.UseVisualStyleBackColor = true;
-            // 
-            // display74
-            // 
-            this.display74.AutoSize = true;
-            this.display74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display74.Location = new System.Drawing.Point(1207, 321);
-            this.display74.Name = "display74";
-            this.display74.Size = new System.Drawing.Size(86, 80);
-            this.display74.TabIndex = 84;
-            this.display74.Text = "74";
-            this.display74.UseVisualStyleBackColor = true;
-            // 
-            // display73
-            // 
-            this.display73.AutoSize = true;
-            this.display73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display73.Location = new System.Drawing.Point(1121, 321);
-            this.display73.Name = "display73";
-            this.display73.Size = new System.Drawing.Size(86, 80);
-            this.display73.TabIndex = 83;
-            this.display73.Text = "73";
-            this.display73.UseVisualStyleBackColor = true;
-            // 
-            // display72
-            // 
-            this.display72.AutoSize = true;
-            this.display72.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display72.Location = new System.Drawing.Point(1035, 321);
-            this.display72.Name = "display72";
-            this.display72.Size = new System.Drawing.Size(86, 80);
-            this.display72.TabIndex = 82;
-            this.display72.Text = "72";
-            this.display72.UseVisualStyleBackColor = true;
-            // 
-            // display71
-            // 
-            this.display71.AutoSize = true;
-            this.display71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display71.Location = new System.Drawing.Point(949, 321);
-            this.display71.Name = "display71";
-            this.display71.Size = new System.Drawing.Size(86, 80);
-            this.display71.TabIndex = 81;
-            this.display71.Text = "71";
-            this.display71.UseVisualStyleBackColor = true;
-            // 
-            // display70
-            // 
-            this.display70.AutoSize = true;
-            this.display70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display70.Location = new System.Drawing.Point(863, 321);
-            this.display70.Name = "display70";
-            this.display70.Size = new System.Drawing.Size(86, 80);
-            this.display70.TabIndex = 80;
-            this.display70.Text = "70";
-            this.display70.UseVisualStyleBackColor = true;
-            // 
-            // display69
-            // 
-            this.display69.AutoSize = true;
-            this.display69.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display69.Location = new System.Drawing.Point(777, 321);
-            this.display69.Name = "display69";
-            this.display69.Size = new System.Drawing.Size(86, 80);
-            this.display69.TabIndex = 79;
-            this.display69.Text = "69";
-            this.display69.UseVisualStyleBackColor = true;
-            // 
-            // display68
-            // 
-            this.display68.AutoSize = true;
-            this.display68.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display68.Location = new System.Drawing.Point(691, 321);
-            this.display68.Name = "display68";
-            this.display68.Size = new System.Drawing.Size(86, 80);
-            this.display68.TabIndex = 78;
-            this.display68.Text = "68";
-            this.display68.UseVisualStyleBackColor = true;
-            // 
-            // display67
-            // 
-            this.display67.AutoSize = true;
-            this.display67.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display67.Location = new System.Drawing.Point(605, 321);
-            this.display67.Name = "display67";
-            this.display67.Size = new System.Drawing.Size(86, 80);
-            this.display67.TabIndex = 77;
-            this.display67.Text = "67";
-            this.display67.UseVisualStyleBackColor = true;
-            // 
-            // display66
-            // 
-            this.display66.AutoSize = true;
-            this.display66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display66.Location = new System.Drawing.Point(519, 321);
-            this.display66.Name = "display66";
-            this.display66.Size = new System.Drawing.Size(86, 80);
-            this.display66.TabIndex = 76;
-            this.display66.Text = "66";
-            this.display66.UseVisualStyleBackColor = true;
-            // 
-            // display65
-            // 
-            this.display65.AutoSize = true;
-            this.display65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display65.Location = new System.Drawing.Point(433, 321);
-            this.display65.Name = "display65";
-            this.display65.Size = new System.Drawing.Size(86, 80);
-            this.display65.TabIndex = 75;
-            this.display65.Text = "65";
-            this.display65.UseVisualStyleBackColor = true;
-            // 
-            // display64
-            // 
-            this.display64.AutoSize = true;
-            this.display64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display64.Location = new System.Drawing.Point(347, 321);
-            this.display64.Name = "display64";
-            this.display64.Size = new System.Drawing.Size(86, 80);
-            this.display64.TabIndex = 74;
-            this.display64.Text = "64";
-            this.display64.UseVisualStyleBackColor = true;
-            // 
-            // display63
-            // 
-            this.display63.AutoSize = true;
-            this.display63.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display63.Location = new System.Drawing.Point(261, 321);
-            this.display63.Name = "display63";
-            this.display63.Size = new System.Drawing.Size(86, 80);
-            this.display63.TabIndex = 73;
-            this.display63.Text = "63";
-            this.display63.UseVisualStyleBackColor = true;
-            // 
-            // display62
-            // 
-            this.display62.AutoSize = true;
-            this.display62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display62.Location = new System.Drawing.Point(175, 321);
-            this.display62.Name = "display62";
-            this.display62.Size = new System.Drawing.Size(86, 80);
-            this.display62.TabIndex = 86;
-            this.display62.Text = "62";
-            this.display62.UseVisualStyleBackColor = true;
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.BackColor = System.Drawing.Color.Gold;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 240);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 79);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "G";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.BackColor = System.Drawing.Color.Gold;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 79);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "N";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.BackColor = System.Drawing.Color.Gold;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 79);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "I";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.BackColor = System.Drawing.Color.Gold;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 79);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "B";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // display15
+            // 
+            this.display15.AutoSize = true;
+            this.display15.BackColor = System.Drawing.Color.White;
+            this.display15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display15.Location = new System.Drawing.Point(1293, -1);
+            this.display15.Name = "display15";
+            this.display15.Size = new System.Drawing.Size(86, 80);
+            this.display15.TabIndex = 14;
+            this.display15.Text = "15";
+            this.display15.UseVisualStyleBackColor = false;
+            this.display15.Click += new System.EventHandler(this.display15_Click);
+            // 
+            // display14
+            // 
+            this.display14.AutoSize = true;
+            this.display14.BackColor = System.Drawing.Color.White;
+            this.display14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display14.Location = new System.Drawing.Point(1207, -1);
+            this.display14.Name = "display14";
+            this.display14.Size = new System.Drawing.Size(86, 80);
+            this.display14.TabIndex = 13;
+            this.display14.Text = "14";
+            this.display14.UseVisualStyleBackColor = false;
+            this.display14.Click += new System.EventHandler(this.display14_Click);
+            // 
+            // display13
+            // 
+            this.display13.AutoSize = true;
+            this.display13.BackColor = System.Drawing.Color.White;
+            this.display13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display13.Location = new System.Drawing.Point(1121, -1);
+            this.display13.Name = "display13";
+            this.display13.Size = new System.Drawing.Size(86, 80);
+            this.display13.TabIndex = 12;
+            this.display13.Text = "13";
+            this.display13.UseVisualStyleBackColor = false;
+            this.display13.Click += new System.EventHandler(this.display13_Click);
+            // 
+            // display12
+            // 
+            this.display12.AutoSize = true;
+            this.display12.BackColor = System.Drawing.Color.White;
+            this.display12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display12.Location = new System.Drawing.Point(1035, -1);
+            this.display12.Name = "display12";
+            this.display12.Size = new System.Drawing.Size(86, 80);
+            this.display12.TabIndex = 11;
+            this.display12.Text = "12";
+            this.display12.UseVisualStyleBackColor = false;
+            this.display12.Click += new System.EventHandler(this.display12_Click);
+            // 
+            // display11
+            // 
+            this.display11.AutoSize = true;
+            this.display11.BackColor = System.Drawing.Color.White;
+            this.display11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display11.Location = new System.Drawing.Point(949, -1);
+            this.display11.Name = "display11";
+            this.display11.Size = new System.Drawing.Size(86, 80);
+            this.display11.TabIndex = 10;
+            this.display11.Text = "11";
+            this.display11.UseVisualStyleBackColor = false;
+            this.display11.Click += new System.EventHandler(this.display11_Click);
+            // 
+            // display10
+            // 
+            this.display10.AutoSize = true;
+            this.display10.BackColor = System.Drawing.Color.White;
+            this.display10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display10.Location = new System.Drawing.Point(863, -1);
+            this.display10.Name = "display10";
+            this.display10.Size = new System.Drawing.Size(86, 80);
+            this.display10.TabIndex = 9;
+            this.display10.Text = "10";
+            this.display10.UseVisualStyleBackColor = false;
+            this.display10.Click += new System.EventHandler(this.display10_Click);
+            // 
+            // display9
+            // 
+            this.display9.AutoSize = true;
+            this.display9.BackColor = System.Drawing.Color.White;
+            this.display9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display9.Location = new System.Drawing.Point(777, -1);
+            this.display9.Name = "display9";
+            this.display9.Size = new System.Drawing.Size(86, 80);
+            this.display9.TabIndex = 8;
+            this.display9.Text = "9";
+            this.display9.UseVisualStyleBackColor = false;
+            this.display9.Click += new System.EventHandler(this.display9_Click);
+            // 
+            // display8
+            // 
+            this.display8.AutoSize = true;
+            this.display8.BackColor = System.Drawing.Color.White;
+            this.display8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display8.Location = new System.Drawing.Point(691, -1);
+            this.display8.Name = "display8";
+            this.display8.Size = new System.Drawing.Size(86, 80);
+            this.display8.TabIndex = 7;
+            this.display8.Text = "8";
+            this.display8.UseVisualStyleBackColor = false;
+            this.display8.Click += new System.EventHandler(this.display8_Click);
+            // 
+            // display7
+            // 
+            this.display7.AutoSize = true;
+            this.display7.BackColor = System.Drawing.Color.White;
+            this.display7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display7.Location = new System.Drawing.Point(605, -1);
+            this.display7.Name = "display7";
+            this.display7.Size = new System.Drawing.Size(86, 80);
+            this.display7.TabIndex = 6;
+            this.display7.Text = "7";
+            this.display7.UseVisualStyleBackColor = false;
+            this.display7.Click += new System.EventHandler(this.display7_Click);
+            // 
+            // display6
+            // 
+            this.display6.AutoSize = true;
+            this.display6.BackColor = System.Drawing.Color.White;
+            this.display6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display6.Location = new System.Drawing.Point(519, -1);
+            this.display6.Name = "display6";
+            this.display6.Size = new System.Drawing.Size(86, 80);
+            this.display6.TabIndex = 5;
+            this.display6.Text = "6";
+            this.display6.UseVisualStyleBackColor = false;
+            this.display6.Click += new System.EventHandler(this.display6_Click);
+            // 
+            // display5
+            // 
+            this.display5.AutoSize = true;
+            this.display5.BackColor = System.Drawing.Color.White;
+            this.display5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display5.Location = new System.Drawing.Point(433, -1);
+            this.display5.Name = "display5";
+            this.display5.Size = new System.Drawing.Size(86, 80);
+            this.display5.TabIndex = 4;
+            this.display5.Text = "5";
+            this.display5.UseVisualStyleBackColor = false;
+            this.display5.Click += new System.EventHandler(this.display5_Click);
+            // 
+            // display4
+            // 
+            this.display4.AutoSize = true;
+            this.display4.BackColor = System.Drawing.Color.White;
+            this.display4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display4.Location = new System.Drawing.Point(347, -1);
+            this.display4.Name = "display4";
+            this.display4.Size = new System.Drawing.Size(86, 80);
+            this.display4.TabIndex = 3;
+            this.display4.Text = "4";
+            this.display4.UseVisualStyleBackColor = false;
+            this.display4.Click += new System.EventHandler(this.display4_Click);
+            // 
+            // display3
+            // 
+            this.display3.AutoSize = true;
+            this.display3.BackColor = System.Drawing.Color.White;
+            this.display3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display3.Location = new System.Drawing.Point(261, -1);
+            this.display3.Name = "display3";
+            this.display3.Size = new System.Drawing.Size(86, 80);
+            this.display3.TabIndex = 2;
+            this.display3.Text = "3";
+            this.display3.UseVisualStyleBackColor = false;
+            this.display3.Click += new System.EventHandler(this.display3_Click);
+            // 
+            // display2
+            // 
+            this.display2.AutoSize = true;
+            this.display2.BackColor = System.Drawing.Color.White;
+            this.display2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.display2.Location = new System.Drawing.Point(175, -1);
+            this.display2.Name = "display2";
+            this.display2.Size = new System.Drawing.Size(86, 80);
+            this.display2.TabIndex = 22;
+            this.display2.Text = "2";
+            this.display2.UseVisualStyleBackColor = false;
+            this.display2.Click += new System.EventHandler(this.display2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 556);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 655);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(954, 343);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // BingoForm
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(1665, 43);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(159, 374);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(1654, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(187, 31);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Most Recent:";
+            // 
+            // recentTrackingTxt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1853, 901);
+            this.ClientSize = new System.Drawing.Size(1853, 1000);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "BingoForm";
+            this.Name = "recentTrackingTxt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Northwood Elementary - Welcome to Bingo Night!";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1127,6 +1300,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1214,6 +1388,8 @@
         private System.Windows.Forms.Button display18;
         private System.Windows.Forms.Button display17;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label6;
     }
 }
 
