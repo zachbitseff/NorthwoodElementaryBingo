@@ -34,10 +34,10 @@
             // displayLabel
             // 
             this.displayLabel.AutoSize = true;
-            this.displayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 100F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayLabel.Location = new System.Drawing.Point(96, 91);
+            this.displayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayLabel.Location = new System.Drawing.Point(77, 55);
             this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(0, 226);
+            this.displayLabel.Size = new System.Drawing.Size(0, 340);
             this.displayLabel.TabIndex = 0;
             // 
             // AutoCallDisplay
