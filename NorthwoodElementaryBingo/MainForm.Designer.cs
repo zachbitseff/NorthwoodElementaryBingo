@@ -1,6 +1,6 @@
 ﻿namespace NorthwoodElementaryBingo
 {
-    partial class recentTrackingTxt
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(recentTrackingTxt));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.display61 = new System.Windows.Forms.Button();
             this.display75 = new System.Windows.Forms.Button();
@@ -111,10 +111,14 @@
             this.display3 = new System.Windows.Forms.Button();
             this.display2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.newGameBtn = new System.Windows.Forms.Button();
             this.callBtn = new System.Windows.Forms.Button();
+            this.trackingTxt1 = new System.Windows.Forms.TextBox();
+            this.trackingTxt2 = new System.Windows.Forms.TextBox();
+            this.trackingTxt3 = new System.Windows.Forms.TextBox();
+            this.trackingTxt4 = new System.Windows.Forms.TextBox();
+            this.trackingTxt5 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -1348,20 +1352,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Enabled = false;
-            this.richTextBox1.Location = new System.Drawing.Point(2489, 66);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(236, 573);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.TabStop = false;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -1387,25 +1377,74 @@
             // 
             this.callBtn.Location = new System.Drawing.Point(2194, 39);
             this.callBtn.Name = "callBtn";
-            this.callBtn.Size = new System.Drawing.Size(163, 62);
+            this.callBtn.Size = new System.Drawing.Size(188, 72);
             this.callBtn.TabIndex = 88;
             this.callBtn.Text = "Call Next";
             this.callBtn.UseVisualStyleBackColor = true;
             this.callBtn.Click += new System.EventHandler(this.callBtn_Click);
             // 
-            // recentTrackingTxt
+            // trackingTxt1
+            // 
+            this.trackingTxt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trackingTxt1.ForeColor = System.Drawing.Color.Red;
+            this.trackingTxt1.Location = new System.Drawing.Point(2512, 64);
+            this.trackingTxt1.Name = "trackingTxt1";
+            this.trackingTxt1.Size = new System.Drawing.Size(211, 116);
+            this.trackingTxt1.TabIndex = 89;
+            // 
+            // trackingTxt2
+            // 
+            this.trackingTxt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trackingTxt2.ForeColor = System.Drawing.Color.Yellow;
+            this.trackingTxt2.Location = new System.Drawing.Point(2512, 186);
+            this.trackingTxt2.Name = "trackingTxt2";
+            this.trackingTxt2.Size = new System.Drawing.Size(211, 116);
+            this.trackingTxt2.TabIndex = 90;
+            // 
+            // trackingTxt3
+            // 
+            this.trackingTxt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trackingTxt3.ForeColor = System.Drawing.Color.Green;
+            this.trackingTxt3.Location = new System.Drawing.Point(2512, 308);
+            this.trackingTxt3.Name = "trackingTxt3";
+            this.trackingTxt3.Size = new System.Drawing.Size(211, 116);
+            this.trackingTxt3.TabIndex = 91;
+            // 
+            // trackingTxt4
+            // 
+            this.trackingTxt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trackingTxt4.ForeColor = System.Drawing.Color.Green;
+            this.trackingTxt4.Location = new System.Drawing.Point(2512, 430);
+            this.trackingTxt4.Name = "trackingTxt4";
+            this.trackingTxt4.Size = new System.Drawing.Size(211, 116);
+            this.trackingTxt4.TabIndex = 92;
+            // 
+            // trackingTxt5
+            // 
+            this.trackingTxt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trackingTxt5.ForeColor = System.Drawing.Color.Green;
+            this.trackingTxt5.Location = new System.Drawing.Point(2512, 552);
+            this.trackingTxt5.Name = "trackingTxt5";
+            this.trackingTxt5.Size = new System.Drawing.Size(211, 116);
+            this.trackingTxt5.TabIndex = 93;
+            // 
+            // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2780, 1538);
+            this.Controls.Add(this.trackingTxt5);
+            this.Controls.Add(this.trackingTxt4);
+            this.Controls.Add(this.trackingTxt3);
+            this.Controls.Add(this.trackingTxt2);
+            this.Controls.Add(this.trackingTxt1);
             this.Controls.Add(this.callBtn);
             this.Controls.Add(this.newGameBtn);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "recentTrackingTxt";
+            this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Northwood Elementary - Welcome to Bingo Night!";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1501,10 +1540,14 @@
         private System.Windows.Forms.Button display18;
         private System.Windows.Forms.Button display17;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button newGameBtn;
         private System.Windows.Forms.Button callBtn;
+        private System.Windows.Forms.TextBox trackingTxt1;
+        private System.Windows.Forms.TextBox trackingTxt2;
+        private System.Windows.Forms.TextBox trackingTxt3;
+        private System.Windows.Forms.TextBox trackingTxt4;
+        private System.Windows.Forms.TextBox trackingTxt5;
     }
 }
 

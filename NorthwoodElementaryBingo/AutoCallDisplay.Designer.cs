@@ -34,19 +34,20 @@
             // displayLabel
             // 
             this.displayLabel.AutoSize = true;
-            this.displayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayLabel.Location = new System.Drawing.Point(77, 55);
+            this.displayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 200F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayLabel.Location = new System.Drawing.Point(347, 88);
             this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(0, 340);
+            this.displayLabel.Size = new System.Drawing.Size(0, 453);
             this.displayLabel.TabIndex = 0;
             // 
             // AutoCallDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1259, 694);
             this.Controls.Add(this.displayLabel);
             this.Name = "AutoCallDisplay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AutoCallDisplay";
             this.Load += new System.EventHandler(this.AutoCallDisplay_Load);
             this.ResumeLayout(false);
