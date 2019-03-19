@@ -51,24 +51,49 @@ namespace NorthwoodElementaryBingo
         private void calledNumberUpdate(byte bingoNumID)
         {
             var button = Convert.ToString("display" + bingoNumID);
-            this.Controls.Find(button, true)[0].BackColor = Color.Red;
-            // ex: bingoNumID = 1
+            Color c = Color.White;
 
-            // update B1 isCalled to true;
-            // update B1 sequence to 1;
-            // update other sequences +1;
-            // sequence == 2 -> color.Orange;
-            // sequence >= 3 -> color.Green;
-        }
+
+            for (byte i = 1; i < 76; i++)
+            {
+                Number num = db.Numbers.Find(i);
+                if (num.IsCalled)
+                {
+                    num.CallSequence += 1;
+                }
+                if (num.CallSequence == 1)
+                {
+                    c = Color.Red;
+                }
+                else if (num.CallSequence == 2)
+                {
+                       c = Color.Yellow;
+                }
+                else if (num.CallSequence >= 3)
+                {
+                    c = Color.Green;
+                }
+                else
+                {
+                    c = Color.White;
+                }
+
+                button = Convert.ToString("display" + i);
+                this.Controls.Find(button, true)[0].BackColor = c;
+            }
+
+            }
 
         private void newGame()
         {
-
             // update isCalled to false for each;
             // update sequence to 0 for each;
             // update BackColor to White for each;
             for (byte i = 1; i < 76; i++)
             {
+                Number num = db.Numbers.Find(i);
+                num.IsCalled = false;
+                num.CallSequence = 0;
                 var button = Convert.ToString("display" + i);
                 this.Controls.Find(button, true)[0].BackColor = Color.White;
             }
@@ -677,15 +702,32 @@ namespace NorthwoodElementaryBingo
 
         }
 
-        
+        private BingoDB db = new BingoDB();
 
         private void callNumber()
         {
-            
+            int id = 1;
+            Random rand = new Random();
+            Number num = db.Numbers.Find(id);
+            Boolean notCalled = false;
+            while ( !notCalled )
+            {
+                id = rand.Next(1, 76);
+                num = db.Numbers.Find(id);
+                if ( num.IsCalled != true )
+                {
+                    num.IsCalled = true;
+                    //callSequence incremented in CalledNumberUpdate;
+                    notCalled = true;
+                }
+            }
+
             AutoCallDisplay frm = new AutoCallDisplay();
-            frm.justCalled = "B15";
-            // frm.justCalled = Convert.ToString(SortColumn + NumberID); 
+            frm.justCalled = Convert.ToString( num.SortColumn + num.NumberID);
             frm.Show();
+            calledNumberUpdate(Convert.ToByte(id));
+
+
         }
     }
 }
