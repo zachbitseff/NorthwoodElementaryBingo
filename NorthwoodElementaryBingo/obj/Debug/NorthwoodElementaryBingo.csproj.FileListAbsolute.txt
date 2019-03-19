@@ -18,3 +18,13 @@ C:\Users\Zach\Source\Repos\NorthwoodElementaryBingo2\NorthwoodElementaryBingo\ob
 C:\Users\Zach\Source\Repos\NorthwoodElementaryBingo2\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.CoreCompileInputs.cache
 C:\Users\Zach\Source\Repos\NorthwoodElementaryBingo2\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.exe
 C:\Users\Zach\Source\Repos\NorthwoodElementaryBingo2\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.pdb
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\bin\Debug\NorthwoodElementaryBingo.exe.config
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\bin\Debug\NorthwoodElementaryBingo.exe
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\bin\Debug\NorthwoodElementaryBingo.pdb
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csprojAssemblyReference.cache
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.recentTrackingTxt.resources
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.Properties.Resources.resources
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.GenerateResource.cache
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.CoreCompileInputs.cache
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.exe
+C:\Users\bitsez\Source\Repos\NorthwoodElementaryBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.pdb

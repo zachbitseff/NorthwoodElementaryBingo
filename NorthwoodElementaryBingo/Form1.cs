@@ -666,6 +666,9 @@ namespace NorthwoodElementaryBingo
             }
         }
 
-        
+        private void newGamebtn_Click(object sender, EventArgs e)
+        {
+            newGame();
+        }
     }
 }
