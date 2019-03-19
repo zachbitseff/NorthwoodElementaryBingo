@@ -55,10 +55,10 @@ C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\bin\Debug\Entity
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csprojAssemblyReference.cache
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.AutoCallDisplay.resources
-C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.recentTrackingTxt.resources
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.Properties.Resources.resources
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.GenerateResource.cache
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.CoreCompileInputs.cache
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.csproj.CopyComplete
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.exe
 C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.pdb
+C:\Users\bitsez\Desktop\NorthwoodBingo\NorthwoodElementaryBingo\obj\Debug\NorthwoodElementaryBingo.mainForm.resources

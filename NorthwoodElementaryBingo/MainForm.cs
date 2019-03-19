@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NorthwoodElementaryBingo
 {
-    public partial class recentTrackingTxt : Form
+    public partial class mainForm : Form
     {
-        public recentTrackingTxt()
+        public mainForm()
         {
             InitializeComponent();
         }
@@ -22,17 +22,7 @@ namespace NorthwoodElementaryBingo
 
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -64,17 +54,29 @@ namespace NorthwoodElementaryBingo
                 if (num.CallSequence == 1)
                 {
                     c = Color.Red;
+                    trackingTxt1.Text = num.SortColumn + num.NumberID;
                 }
                 else if (num.CallSequence == 2)
                 {
-                       c = Color.Yellow;
+                    c = Color.Yellow;
+                    trackingTxt2.Text = num.SortColumn + num.NumberID;
                 }
                 else if (num.CallSequence >= 3)
                 {
                     c = Color.Green;
+                    trackingTxt3.Text = num.SortColumn + num.NumberID;
+                    if (num.CallSequence == 4)
+                    {
+                        trackingTxt4.Text = num.SortColumn + num.NumberID;
+                    }
+                    if (num.CallSequence == 5)
+                    {
+                        trackingTxt5.Text = num.SortColumn + num.NumberID;
+                    }
                 }
                 else
                 {
+                    
                     c = Color.White;
                 }
 
@@ -96,6 +98,12 @@ namespace NorthwoodElementaryBingo
                 num.CallSequence = 0;
                 var button = Convert.ToString("display" + i);
                 this.Controls.Find(button, true)[0].BackColor = Color.White;
+                trackingTxt1.Text = "";
+                trackingTxt2.Text = "";
+                trackingTxt3.Text = "";
+                trackingTxt4.Text = "";
+                trackingTxt5.Text = "";
+
             }
         }
 
