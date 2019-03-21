@@ -119,6 +119,9 @@
             this.trackingTxt3 = new System.Windows.Forms.TextBox();
             this.trackingTxt4 = new System.Windows.Forms.TextBox();
             this.trackingTxt5 = new System.Windows.Forms.TextBox();
+            this.popupCheck = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.popupDisplayTimeTxt = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -221,6 +224,7 @@
             this.display61.Name = "display61";
             this.display61.Size = new System.Drawing.Size(129, 123);
             this.display61.TabIndex = 87;
+            this.display61.TabStop = false;
             this.display61.Text = "61";
             this.display61.UseVisualStyleBackColor = false;
             this.display61.Click += new System.EventHandler(this.display61_Click);
@@ -235,6 +239,7 @@
             this.display75.Name = "display75";
             this.display75.Size = new System.Drawing.Size(129, 123);
             this.display75.TabIndex = 85;
+            this.display75.TabStop = false;
             this.display75.Text = "75";
             this.display75.UseVisualStyleBackColor = false;
             this.display75.Click += new System.EventHandler(this.display75_Click);
@@ -249,6 +254,7 @@
             this.display74.Name = "display74";
             this.display74.Size = new System.Drawing.Size(129, 123);
             this.display74.TabIndex = 84;
+            this.display74.TabStop = false;
             this.display74.Text = "74";
             this.display74.UseVisualStyleBackColor = false;
             this.display74.Click += new System.EventHandler(this.display74_Click);
@@ -263,6 +269,7 @@
             this.display73.Name = "display73";
             this.display73.Size = new System.Drawing.Size(129, 123);
             this.display73.TabIndex = 83;
+            this.display73.TabStop = false;
             this.display73.Text = "73";
             this.display73.UseVisualStyleBackColor = false;
             this.display73.Click += new System.EventHandler(this.display73_Click);
@@ -277,6 +284,7 @@
             this.display72.Name = "display72";
             this.display72.Size = new System.Drawing.Size(129, 123);
             this.display72.TabIndex = 82;
+            this.display72.TabStop = false;
             this.display72.Text = "72";
             this.display72.UseVisualStyleBackColor = false;
             this.display72.Click += new System.EventHandler(this.display72_Click);
@@ -291,6 +299,7 @@
             this.display71.Name = "display71";
             this.display71.Size = new System.Drawing.Size(129, 123);
             this.display71.TabIndex = 81;
+            this.display71.TabStop = false;
             this.display71.Text = "71";
             this.display71.UseVisualStyleBackColor = false;
             this.display71.Click += new System.EventHandler(this.display71_Click);
@@ -305,6 +314,7 @@
             this.display70.Name = "display70";
             this.display70.Size = new System.Drawing.Size(129, 123);
             this.display70.TabIndex = 80;
+            this.display70.TabStop = false;
             this.display70.Text = "70";
             this.display70.UseVisualStyleBackColor = false;
             this.display70.Click += new System.EventHandler(this.display70_Click);
@@ -319,6 +329,7 @@
             this.display69.Name = "display69";
             this.display69.Size = new System.Drawing.Size(129, 123);
             this.display69.TabIndex = 79;
+            this.display69.TabStop = false;
             this.display69.Text = "69";
             this.display69.UseVisualStyleBackColor = false;
             this.display69.Click += new System.EventHandler(this.display69_Click);
@@ -333,6 +344,7 @@
             this.display68.Name = "display68";
             this.display68.Size = new System.Drawing.Size(129, 123);
             this.display68.TabIndex = 78;
+            this.display68.TabStop = false;
             this.display68.Text = "68";
             this.display68.UseVisualStyleBackColor = false;
             this.display68.Click += new System.EventHandler(this.display68_Click);
@@ -347,6 +359,7 @@
             this.display67.Name = "display67";
             this.display67.Size = new System.Drawing.Size(129, 123);
             this.display67.TabIndex = 77;
+            this.display67.TabStop = false;
             this.display67.Text = "67";
             this.display67.UseVisualStyleBackColor = false;
             this.display67.Click += new System.EventHandler(this.display67_Click);
@@ -361,6 +374,7 @@
             this.display66.Name = "display66";
             this.display66.Size = new System.Drawing.Size(129, 123);
             this.display66.TabIndex = 76;
+            this.display66.TabStop = false;
             this.display66.Text = "66";
             this.display66.UseVisualStyleBackColor = false;
             this.display66.Click += new System.EventHandler(this.display66_Click);
@@ -375,6 +389,7 @@
             this.display65.Name = "display65";
             this.display65.Size = new System.Drawing.Size(129, 123);
             this.display65.TabIndex = 75;
+            this.display65.TabStop = false;
             this.display65.Text = "65";
             this.display65.UseVisualStyleBackColor = false;
             this.display65.Click += new System.EventHandler(this.display65_Click);
@@ -389,6 +404,7 @@
             this.display64.Name = "display64";
             this.display64.Size = new System.Drawing.Size(129, 123);
             this.display64.TabIndex = 74;
+            this.display64.TabStop = false;
             this.display64.Text = "64";
             this.display64.UseVisualStyleBackColor = false;
             this.display64.Click += new System.EventHandler(this.display64_Click);
@@ -403,6 +419,7 @@
             this.display63.Name = "display63";
             this.display63.Size = new System.Drawing.Size(129, 123);
             this.display63.TabIndex = 73;
+            this.display63.TabStop = false;
             this.display63.Text = "63";
             this.display63.UseVisualStyleBackColor = false;
             this.display63.Click += new System.EventHandler(this.display63_Click);
@@ -417,6 +434,7 @@
             this.display62.Name = "display62";
             this.display62.Size = new System.Drawing.Size(129, 123);
             this.display62.TabIndex = 86;
+            this.display62.TabStop = false;
             this.display62.Text = "62";
             this.display62.UseVisualStyleBackColor = false;
             this.display62.Click += new System.EventHandler(this.display62_Click);
@@ -431,6 +449,7 @@
             this.display46.Name = "display46";
             this.display46.Size = new System.Drawing.Size(129, 123);
             this.display46.TabIndex = 72;
+            this.display46.TabStop = false;
             this.display46.Text = "46";
             this.display46.UseVisualStyleBackColor = false;
             this.display46.Click += new System.EventHandler(this.display46_Click);
@@ -445,6 +464,7 @@
             this.display60.Name = "display60";
             this.display60.Size = new System.Drawing.Size(129, 123);
             this.display60.TabIndex = 70;
+            this.display60.TabStop = false;
             this.display60.Text = "60";
             this.display60.UseVisualStyleBackColor = false;
             this.display60.Click += new System.EventHandler(this.display60_Click);
@@ -459,6 +479,7 @@
             this.display59.Name = "display59";
             this.display59.Size = new System.Drawing.Size(129, 123);
             this.display59.TabIndex = 69;
+            this.display59.TabStop = false;
             this.display59.Text = "59";
             this.display59.UseVisualStyleBackColor = false;
             this.display59.Click += new System.EventHandler(this.display59_Click);
@@ -473,6 +494,7 @@
             this.display58.Name = "display58";
             this.display58.Size = new System.Drawing.Size(129, 123);
             this.display58.TabIndex = 68;
+            this.display58.TabStop = false;
             this.display58.Text = "58";
             this.display58.UseVisualStyleBackColor = false;
             this.display58.Click += new System.EventHandler(this.display58_Click);
@@ -487,6 +509,7 @@
             this.display57.Name = "display57";
             this.display57.Size = new System.Drawing.Size(129, 123);
             this.display57.TabIndex = 67;
+            this.display57.TabStop = false;
             this.display57.Text = "57";
             this.display57.UseVisualStyleBackColor = false;
             this.display57.Click += new System.EventHandler(this.display57_Click);
@@ -501,6 +524,7 @@
             this.display56.Name = "display56";
             this.display56.Size = new System.Drawing.Size(129, 123);
             this.display56.TabIndex = 66;
+            this.display56.TabStop = false;
             this.display56.Text = "56";
             this.display56.UseVisualStyleBackColor = false;
             this.display56.Click += new System.EventHandler(this.display56_Click);
@@ -515,6 +539,7 @@
             this.display55.Name = "display55";
             this.display55.Size = new System.Drawing.Size(129, 123);
             this.display55.TabIndex = 65;
+            this.display55.TabStop = false;
             this.display55.Text = "55";
             this.display55.UseVisualStyleBackColor = false;
             this.display55.Click += new System.EventHandler(this.display55_Click);
@@ -529,6 +554,7 @@
             this.display54.Name = "display54";
             this.display54.Size = new System.Drawing.Size(129, 123);
             this.display54.TabIndex = 64;
+            this.display54.TabStop = false;
             this.display54.Text = "54";
             this.display54.UseVisualStyleBackColor = false;
             this.display54.Click += new System.EventHandler(this.display54_Click);
@@ -543,6 +569,7 @@
             this.display53.Name = "display53";
             this.display53.Size = new System.Drawing.Size(129, 123);
             this.display53.TabIndex = 63;
+            this.display53.TabStop = false;
             this.display53.Text = "53";
             this.display53.UseVisualStyleBackColor = false;
             this.display53.Click += new System.EventHandler(this.display53_Click);
@@ -557,6 +584,7 @@
             this.display52.Name = "display52";
             this.display52.Size = new System.Drawing.Size(129, 123);
             this.display52.TabIndex = 62;
+            this.display52.TabStop = false;
             this.display52.Text = "52";
             this.display52.UseVisualStyleBackColor = false;
             this.display52.Click += new System.EventHandler(this.display52_Click);
@@ -571,6 +599,7 @@
             this.display51.Name = "display51";
             this.display51.Size = new System.Drawing.Size(129, 123);
             this.display51.TabIndex = 61;
+            this.display51.TabStop = false;
             this.display51.Text = "51";
             this.display51.UseVisualStyleBackColor = false;
             this.display51.Click += new System.EventHandler(this.display51_Click);
@@ -585,6 +614,7 @@
             this.display50.Name = "display50";
             this.display50.Size = new System.Drawing.Size(129, 123);
             this.display50.TabIndex = 60;
+            this.display50.TabStop = false;
             this.display50.Text = "50";
             this.display50.UseVisualStyleBackColor = false;
             this.display50.Click += new System.EventHandler(this.display50_Click);
@@ -599,6 +629,7 @@
             this.display49.Name = "display49";
             this.display49.Size = new System.Drawing.Size(129, 123);
             this.display49.TabIndex = 59;
+            this.display49.TabStop = false;
             this.display49.Text = "49";
             this.display49.UseVisualStyleBackColor = false;
             this.display49.Click += new System.EventHandler(this.display49_Click);
@@ -613,6 +644,7 @@
             this.display48.Name = "display48";
             this.display48.Size = new System.Drawing.Size(129, 123);
             this.display48.TabIndex = 58;
+            this.display48.TabStop = false;
             this.display48.Text = "48";
             this.display48.UseVisualStyleBackColor = false;
             this.display48.Click += new System.EventHandler(this.display48_Click);
@@ -627,6 +659,7 @@
             this.display47.Name = "display47";
             this.display47.Size = new System.Drawing.Size(129, 123);
             this.display47.TabIndex = 71;
+            this.display47.TabStop = false;
             this.display47.Text = "47";
             this.display47.UseVisualStyleBackColor = false;
             this.display47.Click += new System.EventHandler(this.display47_Click);
@@ -641,6 +674,7 @@
             this.display31.Name = "display31";
             this.display31.Size = new System.Drawing.Size(129, 123);
             this.display31.TabIndex = 57;
+            this.display31.TabStop = false;
             this.display31.Text = "31";
             this.display31.UseVisualStyleBackColor = false;
             this.display31.Click += new System.EventHandler(this.display31_Click);
@@ -655,6 +689,7 @@
             this.display45.Name = "display45";
             this.display45.Size = new System.Drawing.Size(129, 123);
             this.display45.TabIndex = 55;
+            this.display45.TabStop = false;
             this.display45.Text = "45";
             this.display45.UseVisualStyleBackColor = false;
             this.display45.Click += new System.EventHandler(this.display45_Click);
@@ -669,6 +704,7 @@
             this.display44.Name = "display44";
             this.display44.Size = new System.Drawing.Size(129, 123);
             this.display44.TabIndex = 54;
+            this.display44.TabStop = false;
             this.display44.Text = "44";
             this.display44.UseVisualStyleBackColor = false;
             this.display44.Click += new System.EventHandler(this.display44_Click);
@@ -683,6 +719,7 @@
             this.display43.Name = "display43";
             this.display43.Size = new System.Drawing.Size(129, 123);
             this.display43.TabIndex = 53;
+            this.display43.TabStop = false;
             this.display43.Text = "43";
             this.display43.UseVisualStyleBackColor = false;
             this.display43.Click += new System.EventHandler(this.display43_Click);
@@ -697,6 +734,7 @@
             this.display42.Name = "display42";
             this.display42.Size = new System.Drawing.Size(129, 123);
             this.display42.TabIndex = 52;
+            this.display42.TabStop = false;
             this.display42.Text = "42";
             this.display42.UseVisualStyleBackColor = false;
             this.display42.Click += new System.EventHandler(this.display42_Click);
@@ -711,6 +749,7 @@
             this.display41.Name = "display41";
             this.display41.Size = new System.Drawing.Size(129, 123);
             this.display41.TabIndex = 51;
+            this.display41.TabStop = false;
             this.display41.Text = "41";
             this.display41.UseVisualStyleBackColor = false;
             this.display41.Click += new System.EventHandler(this.display41_Click);
@@ -725,6 +764,7 @@
             this.display40.Name = "display40";
             this.display40.Size = new System.Drawing.Size(129, 123);
             this.display40.TabIndex = 50;
+            this.display40.TabStop = false;
             this.display40.Text = "40";
             this.display40.UseVisualStyleBackColor = false;
             this.display40.Click += new System.EventHandler(this.display40_Click);
@@ -739,6 +779,7 @@
             this.display39.Name = "display39";
             this.display39.Size = new System.Drawing.Size(129, 123);
             this.display39.TabIndex = 49;
+            this.display39.TabStop = false;
             this.display39.Text = "39";
             this.display39.UseVisualStyleBackColor = false;
             this.display39.Click += new System.EventHandler(this.display39_Click);
@@ -753,6 +794,7 @@
             this.display38.Name = "display38";
             this.display38.Size = new System.Drawing.Size(129, 123);
             this.display38.TabIndex = 48;
+            this.display38.TabStop = false;
             this.display38.Text = "38";
             this.display38.UseVisualStyleBackColor = false;
             this.display38.Click += new System.EventHandler(this.display38_Click);
@@ -767,6 +809,7 @@
             this.display37.Name = "display37";
             this.display37.Size = new System.Drawing.Size(129, 123);
             this.display37.TabIndex = 47;
+            this.display37.TabStop = false;
             this.display37.Text = "37";
             this.display37.UseVisualStyleBackColor = false;
             this.display37.Click += new System.EventHandler(this.display37_Click);
@@ -781,6 +824,7 @@
             this.display36.Name = "display36";
             this.display36.Size = new System.Drawing.Size(129, 123);
             this.display36.TabIndex = 46;
+            this.display36.TabStop = false;
             this.display36.Text = "36";
             this.display36.UseVisualStyleBackColor = false;
             this.display36.Click += new System.EventHandler(this.display36_Click);
@@ -795,6 +839,7 @@
             this.display35.Name = "display35";
             this.display35.Size = new System.Drawing.Size(129, 123);
             this.display35.TabIndex = 45;
+            this.display35.TabStop = false;
             this.display35.Text = "35";
             this.display35.UseVisualStyleBackColor = false;
             this.display35.Click += new System.EventHandler(this.display35_Click);
@@ -809,6 +854,7 @@
             this.display34.Name = "display34";
             this.display34.Size = new System.Drawing.Size(129, 123);
             this.display34.TabIndex = 44;
+            this.display34.TabStop = false;
             this.display34.Text = "34";
             this.display34.UseVisualStyleBackColor = false;
             this.display34.Click += new System.EventHandler(this.display34_Click);
@@ -823,6 +869,7 @@
             this.display33.Name = "display33";
             this.display33.Size = new System.Drawing.Size(129, 123);
             this.display33.TabIndex = 43;
+            this.display33.TabStop = false;
             this.display33.Text = "33";
             this.display33.UseVisualStyleBackColor = false;
             this.display33.Click += new System.EventHandler(this.display33_Click);
@@ -837,6 +884,7 @@
             this.display32.Name = "display32";
             this.display32.Size = new System.Drawing.Size(129, 123);
             this.display32.TabIndex = 56;
+            this.display32.TabStop = false;
             this.display32.Text = "32";
             this.display32.UseVisualStyleBackColor = false;
             this.display32.Click += new System.EventHandler(this.display32_Click);
@@ -851,6 +899,7 @@
             this.display16.Name = "display16";
             this.display16.Size = new System.Drawing.Size(129, 123);
             this.display16.TabIndex = 42;
+            this.display16.TabStop = false;
             this.display16.Text = "16";
             this.display16.UseVisualStyleBackColor = false;
             this.display16.Click += new System.EventHandler(this.display16_Click);
@@ -865,6 +914,7 @@
             this.display30.Name = "display30";
             this.display30.Size = new System.Drawing.Size(129, 123);
             this.display30.TabIndex = 40;
+            this.display30.TabStop = false;
             this.display30.Text = "30";
             this.display30.UseVisualStyleBackColor = false;
             this.display30.Click += new System.EventHandler(this.display30_Click);
@@ -879,6 +929,7 @@
             this.display29.Name = "display29";
             this.display29.Size = new System.Drawing.Size(129, 123);
             this.display29.TabIndex = 39;
+            this.display29.TabStop = false;
             this.display29.Text = "29";
             this.display29.UseVisualStyleBackColor = false;
             this.display29.Click += new System.EventHandler(this.display29_Click);
@@ -893,6 +944,7 @@
             this.display28.Name = "display28";
             this.display28.Size = new System.Drawing.Size(129, 123);
             this.display28.TabIndex = 38;
+            this.display28.TabStop = false;
             this.display28.Text = "28";
             this.display28.UseVisualStyleBackColor = false;
             this.display28.Click += new System.EventHandler(this.display28_Click);
@@ -907,6 +959,7 @@
             this.display27.Name = "display27";
             this.display27.Size = new System.Drawing.Size(129, 123);
             this.display27.TabIndex = 37;
+            this.display27.TabStop = false;
             this.display27.Text = "27";
             this.display27.UseVisualStyleBackColor = false;
             this.display27.Click += new System.EventHandler(this.display27_Click);
@@ -921,6 +974,7 @@
             this.display26.Name = "display26";
             this.display26.Size = new System.Drawing.Size(129, 123);
             this.display26.TabIndex = 36;
+            this.display26.TabStop = false;
             this.display26.Text = "26";
             this.display26.UseVisualStyleBackColor = false;
             this.display26.Click += new System.EventHandler(this.display26_Click);
@@ -935,6 +989,7 @@
             this.display25.Name = "display25";
             this.display25.Size = new System.Drawing.Size(129, 123);
             this.display25.TabIndex = 35;
+            this.display25.TabStop = false;
             this.display25.Text = "25";
             this.display25.UseVisualStyleBackColor = false;
             this.display25.Click += new System.EventHandler(this.display25_Click);
@@ -949,6 +1004,7 @@
             this.display24.Name = "display24";
             this.display24.Size = new System.Drawing.Size(129, 123);
             this.display24.TabIndex = 34;
+            this.display24.TabStop = false;
             this.display24.Text = "24";
             this.display24.UseVisualStyleBackColor = false;
             this.display24.Click += new System.EventHandler(this.display24_Click);
@@ -963,6 +1019,7 @@
             this.display23.Name = "display23";
             this.display23.Size = new System.Drawing.Size(129, 123);
             this.display23.TabIndex = 33;
+            this.display23.TabStop = false;
             this.display23.Text = "23";
             this.display23.UseVisualStyleBackColor = false;
             this.display23.Click += new System.EventHandler(this.display23_Click);
@@ -977,6 +1034,7 @@
             this.display22.Name = "display22";
             this.display22.Size = new System.Drawing.Size(129, 123);
             this.display22.TabIndex = 32;
+            this.display22.TabStop = false;
             this.display22.Text = "22";
             this.display22.UseVisualStyleBackColor = false;
             this.display22.Click += new System.EventHandler(this.display22_Click);
@@ -991,6 +1049,7 @@
             this.display21.Name = "display21";
             this.display21.Size = new System.Drawing.Size(129, 123);
             this.display21.TabIndex = 31;
+            this.display21.TabStop = false;
             this.display21.Text = "21";
             this.display21.UseVisualStyleBackColor = false;
             this.display21.Click += new System.EventHandler(this.display21_Click);
@@ -1005,6 +1064,7 @@
             this.display20.Name = "display20";
             this.display20.Size = new System.Drawing.Size(129, 123);
             this.display20.TabIndex = 30;
+            this.display20.TabStop = false;
             this.display20.Text = "20";
             this.display20.UseVisualStyleBackColor = false;
             this.display20.Click += new System.EventHandler(this.display20_Click);
@@ -1019,6 +1079,7 @@
             this.display19.Name = "display19";
             this.display19.Size = new System.Drawing.Size(129, 123);
             this.display19.TabIndex = 29;
+            this.display19.TabStop = false;
             this.display19.Text = "19";
             this.display19.UseVisualStyleBackColor = false;
             this.display19.Click += new System.EventHandler(this.display19_Click);
@@ -1033,6 +1094,7 @@
             this.display18.Name = "display18";
             this.display18.Size = new System.Drawing.Size(129, 123);
             this.display18.TabIndex = 28;
+            this.display18.TabStop = false;
             this.display18.Text = "18";
             this.display18.UseVisualStyleBackColor = false;
             this.display18.Click += new System.EventHandler(this.display18_Click);
@@ -1047,6 +1109,7 @@
             this.display17.Name = "display17";
             this.display17.Size = new System.Drawing.Size(129, 123);
             this.display17.TabIndex = 41;
+            this.display17.TabStop = false;
             this.display17.Text = "17";
             this.display17.UseVisualStyleBackColor = false;
             this.display17.Click += new System.EventHandler(this.display17_Click);
@@ -1061,6 +1124,7 @@
             this.display1.Name = "display1";
             this.display1.Size = new System.Drawing.Size(129, 123);
             this.display1.TabIndex = 27;
+            this.display1.TabStop = false;
             this.display1.Text = "1";
             this.display1.UseVisualStyleBackColor = false;
             this.display1.Click += new System.EventHandler(this.display1_Click);
@@ -1156,6 +1220,7 @@
             this.display15.Name = "display15";
             this.display15.Size = new System.Drawing.Size(129, 123);
             this.display15.TabIndex = 14;
+            this.display15.TabStop = false;
             this.display15.Text = "15";
             this.display15.UseVisualStyleBackColor = false;
             this.display15.Click += new System.EventHandler(this.display15_Click);
@@ -1170,6 +1235,7 @@
             this.display14.Name = "display14";
             this.display14.Size = new System.Drawing.Size(129, 123);
             this.display14.TabIndex = 13;
+            this.display14.TabStop = false;
             this.display14.Text = "14";
             this.display14.UseVisualStyleBackColor = false;
             this.display14.Click += new System.EventHandler(this.display14_Click);
@@ -1184,6 +1250,7 @@
             this.display13.Name = "display13";
             this.display13.Size = new System.Drawing.Size(129, 123);
             this.display13.TabIndex = 12;
+            this.display13.TabStop = false;
             this.display13.Text = "13";
             this.display13.UseVisualStyleBackColor = false;
             this.display13.Click += new System.EventHandler(this.display13_Click);
@@ -1198,6 +1265,7 @@
             this.display12.Name = "display12";
             this.display12.Size = new System.Drawing.Size(129, 123);
             this.display12.TabIndex = 11;
+            this.display12.TabStop = false;
             this.display12.Text = "12";
             this.display12.UseVisualStyleBackColor = false;
             this.display12.Click += new System.EventHandler(this.display12_Click);
@@ -1212,6 +1280,7 @@
             this.display11.Name = "display11";
             this.display11.Size = new System.Drawing.Size(129, 123);
             this.display11.TabIndex = 10;
+            this.display11.TabStop = false;
             this.display11.Text = "11";
             this.display11.UseVisualStyleBackColor = false;
             this.display11.Click += new System.EventHandler(this.display11_Click);
@@ -1226,6 +1295,7 @@
             this.display10.Name = "display10";
             this.display10.Size = new System.Drawing.Size(129, 123);
             this.display10.TabIndex = 9;
+            this.display10.TabStop = false;
             this.display10.Text = "10";
             this.display10.UseVisualStyleBackColor = false;
             this.display10.Click += new System.EventHandler(this.display10_Click);
@@ -1240,6 +1310,7 @@
             this.display9.Name = "display9";
             this.display9.Size = new System.Drawing.Size(129, 123);
             this.display9.TabIndex = 8;
+            this.display9.TabStop = false;
             this.display9.Text = "9";
             this.display9.UseVisualStyleBackColor = false;
             this.display9.Click += new System.EventHandler(this.display9_Click);
@@ -1254,6 +1325,7 @@
             this.display8.Name = "display8";
             this.display8.Size = new System.Drawing.Size(129, 123);
             this.display8.TabIndex = 7;
+            this.display8.TabStop = false;
             this.display8.Text = "8";
             this.display8.UseVisualStyleBackColor = false;
             this.display8.Click += new System.EventHandler(this.display8_Click);
@@ -1268,6 +1340,7 @@
             this.display7.Name = "display7";
             this.display7.Size = new System.Drawing.Size(129, 123);
             this.display7.TabIndex = 6;
+            this.display7.TabStop = false;
             this.display7.Text = "7";
             this.display7.UseVisualStyleBackColor = false;
             this.display7.Click += new System.EventHandler(this.display7_Click);
@@ -1282,6 +1355,7 @@
             this.display6.Name = "display6";
             this.display6.Size = new System.Drawing.Size(129, 123);
             this.display6.TabIndex = 5;
+            this.display6.TabStop = false;
             this.display6.Text = "6";
             this.display6.UseVisualStyleBackColor = false;
             this.display6.Click += new System.EventHandler(this.display6_Click);
@@ -1296,6 +1370,7 @@
             this.display5.Name = "display5";
             this.display5.Size = new System.Drawing.Size(129, 123);
             this.display5.TabIndex = 4;
+            this.display5.TabStop = false;
             this.display5.Text = "5";
             this.display5.UseVisualStyleBackColor = false;
             this.display5.Click += new System.EventHandler(this.display5_Click);
@@ -1310,6 +1385,7 @@
             this.display4.Name = "display4";
             this.display4.Size = new System.Drawing.Size(129, 123);
             this.display4.TabIndex = 3;
+            this.display4.TabStop = false;
             this.display4.Text = "4";
             this.display4.UseVisualStyleBackColor = false;
             this.display4.Click += new System.EventHandler(this.display4_Click);
@@ -1324,6 +1400,7 @@
             this.display3.Name = "display3";
             this.display3.Size = new System.Drawing.Size(129, 123);
             this.display3.TabIndex = 2;
+            this.display3.TabStop = false;
             this.display3.Text = "3";
             this.display3.UseVisualStyleBackColor = false;
             this.display3.Click += new System.EventHandler(this.display3_Click);
@@ -1338,6 +1415,7 @@
             this.display2.Name = "display2";
             this.display2.Size = new System.Drawing.Size(129, 123);
             this.display2.TabIndex = 22;
+            this.display2.TabStop = false;
             this.display2.Text = "2";
             this.display2.UseVisualStyleBackColor = false;
             this.display2.Click += new System.EventHandler(this.display2_Click);
@@ -1365,6 +1443,7 @@
             // 
             // newGameBtn
             // 
+            this.newGameBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.newGameBtn.Location = new System.Drawing.Point(1465, 1068);
             this.newGameBtn.Name = "newGameBtn";
             this.newGameBtn.Size = new System.Drawing.Size(236, 65);
@@ -1391,6 +1470,7 @@
             this.trackingTxt1.Name = "trackingTxt1";
             this.trackingTxt1.Size = new System.Drawing.Size(211, 116);
             this.trackingTxt1.TabIndex = 89;
+            this.trackingTxt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // trackingTxt2
             // 
@@ -1400,6 +1480,7 @@
             this.trackingTxt2.Name = "trackingTxt2";
             this.trackingTxt2.Size = new System.Drawing.Size(211, 116);
             this.trackingTxt2.TabIndex = 90;
+            this.trackingTxt2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // trackingTxt3
             // 
@@ -1409,6 +1490,7 @@
             this.trackingTxt3.Name = "trackingTxt3";
             this.trackingTxt3.Size = new System.Drawing.Size(211, 116);
             this.trackingTxt3.TabIndex = 91;
+            this.trackingTxt3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // trackingTxt4
             // 
@@ -1418,6 +1500,7 @@
             this.trackingTxt4.Name = "trackingTxt4";
             this.trackingTxt4.Size = new System.Drawing.Size(211, 116);
             this.trackingTxt4.TabIndex = 92;
+            this.trackingTxt4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // trackingTxt5
             // 
@@ -1427,12 +1510,49 @@
             this.trackingTxt5.Name = "trackingTxt5";
             this.trackingTxt5.Size = new System.Drawing.Size(211, 116);
             this.trackingTxt5.TabIndex = 93;
+            this.trackingTxt5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // popupCheck
+            // 
+            this.popupCheck.AutoSize = true;
+            this.popupCheck.Checked = true;
+            this.popupCheck.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.popupCheck.Location = new System.Drawing.Point(1466, 1162);
+            this.popupCheck.Name = "popupCheck";
+            this.popupCheck.Size = new System.Drawing.Size(141, 24);
+            this.popupCheck.TabIndex = 94;
+            this.popupCheck.Text = "Pop-up Display";
+            this.popupCheck.UseVisualStyleBackColor = true;
+            this.popupCheck.CheckedChanged += new System.EventHandler(this.popupCheck_CheckedChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1462, 1201);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(170, 20);
+            this.label7.TabIndex = 95;
+            this.label7.Text = "Popup Display Time(s):";
+            // 
+            // popupDisplayTimeTxt
+            // 
+            this.popupDisplayTimeTxt.Location = new System.Drawing.Point(1639, 1201);
+            this.popupDisplayTimeTxt.Name = "popupDisplayTimeTxt";
+            this.popupDisplayTimeTxt.Size = new System.Drawing.Size(100, 26);
+            this.popupDisplayTimeTxt.TabIndex = 96;
+            this.popupDisplayTimeTxt.Text = "5";
+            this.popupDisplayTimeTxt.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // mainForm
             // 
+            this.AcceptButton = this.callBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.newGameBtn;
             this.ClientSize = new System.Drawing.Size(2780, 1538);
+            this.Controls.Add(this.popupDisplayTimeTxt);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.popupCheck);
             this.Controls.Add(this.trackingTxt5);
             this.Controls.Add(this.trackingTxt4);
             this.Controls.Add(this.trackingTxt3);
@@ -1548,6 +1668,9 @@
         private System.Windows.Forms.TextBox trackingTxt3;
         private System.Windows.Forms.TextBox trackingTxt4;
         private System.Windows.Forms.TextBox trackingTxt5;
+        private System.Windows.Forms.CheckBox popupCheck;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox popupDisplayTimeTxt;
     }
 }
 
