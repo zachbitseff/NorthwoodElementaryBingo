@@ -15,6 +15,8 @@ namespace NorthwoodElementaryBingo
 
         public string justCalled { get; set; }
 
+        public Byte popupDisplayDelay { get; set; }
+
         public AutoCallDisplay()
         {
             InitializeComponent();
@@ -26,7 +28,7 @@ namespace NorthwoodElementaryBingo
         private void AutoCallDisplay_Load(object sender, EventArgs e)
         {
             displayLabel.Text = justCalled;
-            timer.Interval = 5000;
+            timer.Interval = popupDisplayDelay * 1000;
             timer.Tick += new EventHandler(timer_Tick);
             timer.Start();
         }

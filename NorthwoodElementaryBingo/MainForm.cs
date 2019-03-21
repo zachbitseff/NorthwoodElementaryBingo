@@ -43,7 +43,11 @@ namespace NorthwoodElementaryBingo
             var button = Convert.ToString("display" + bingoNumID);
             Color c = Color.White;
 
-
+            // increments each called number by one
+            // updates backcolor of associated button
+            // red is last called
+            // yellow is 2nd to last called
+            // green for any other called number
             for (byte i = 1; i < 76; i++)
             {
                 Number num = db.Numbers.Find(i);
@@ -64,7 +68,11 @@ namespace NorthwoodElementaryBingo
                 else if (num.CallSequence >= 3)
                 {
                     c = Color.Green;
-                    trackingTxt3.Text = num.SortColumn + num.NumberID;
+                    if (num.CallSequence == 3)
+                    {
+                        trackingTxt3.Text = num.SortColumn + num.NumberID;
+                    }
+                    
                     if (num.CallSequence == 4)
                     {
                         trackingTxt4.Text = num.SortColumn + num.NumberID;
@@ -91,6 +99,7 @@ namespace NorthwoodElementaryBingo
             // update isCalled to false for each;
             // update sequence to 0 for each;
             // update BackColor to White for each;
+            // updates each trackingTxt box to empty. 
             for (byte i = 1; i < 76; i++)
             {
                 Number num = db.Numbers.Find(i);
@@ -729,12 +738,38 @@ namespace NorthwoodElementaryBingo
                     notCalled = true;
                 }
             }
-
-            AutoCallDisplay frm = new AutoCallDisplay();
-            frm.justCalled = Convert.ToString( num.SortColumn + num.NumberID);
-            frm.Show();
+            if (popupEnabled)
+            {
+                AutoCallDisplay frm = new AutoCallDisplay();
+                frm.justCalled = Convert.ToString(num.SortColumn + num.NumberID);
+                frm.popupDisplayDelay = Convert.ToByte(popupDisplayTimeTxt.Text);
+                frm.Show();
+                
+            }
             calledNumberUpdate(Convert.ToByte(id));
+        }
 
+        private Boolean popupEnabled = true;
+
+        private void popupCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if ( popupCheck.Checked )
+            {
+                popupEnabled = true;
+            }
+            if ( !popupCheck.Checked )
+            {
+                popupEnabled = false;
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
