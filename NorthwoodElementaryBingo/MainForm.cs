@@ -731,7 +731,7 @@ namespace NorthwoodElementaryBingo
             {
                 id = rand.Next(1, 76);
                 num = db.Numbers.Find(id);
-                if ( num.IsCalled != true )
+                if ( num.IsCalled != true && num.IsDisabled != true)
                 {
                     num.IsCalled = true;
                     //callSequence incremented in CalledNumberUpdate;
@@ -771,6 +771,64 @@ namespace NorthwoodElementaryBingo
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+
+        private void gameModeList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            newGame();
+            for (byte i = 1; i < 76; i++)
+            {
+                Number num = db.Numbers.Find(i);
+                num.IsDisabled = false;
+
+            }
+            //Traditional
+            if ( gameModeList.GetSelected(0) )
+            {
+                //gameModePicBox.ImageLocation = ;
+            }
+            // Diagonal
+            else if (gameModeList.GetSelected(1))
+            {
+                for (byte i = 1; i < 76; i++)
+                {
+                    Number num = db.Numbers.Find(i);
+                    if (num.SortColumn == "N")
+                    {
+                        num.IsDisabled = true;
+                    }
+                }
+                //gameModePicBox.ImageLocation = ;
+            }
+
+            // Four Corners
+            else if (gameModeList.GetSelected(2))
+            {
+                for (byte i = 1; i < 76; i++)
+                {
+                    Number num = db.Numbers.Find(i);
+                    if (num.SortColumn == "I" || num.SortColumn == "N" || num.SortColumn == "G")
+                    {
+                        num.IsDisabled = true;
+                    }
+                }
+                //gameModePicBox.ImageLocation = ;
+            }
+
+            // X Pattern
+            else if (gameModeList.GetSelected(3))
+            {
+                for (byte i = 1; i < 76; i++)
+                {
+                    Number num = db.Numbers.Find(i);
+                    if (num.SortColumn == "N")
+                    {
+                        num.IsDisabled = true;
+                    }
+                }
+                //gameModePicBox.ImageLocation = ;
+            }
         }
     }
 }

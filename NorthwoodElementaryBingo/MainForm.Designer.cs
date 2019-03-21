@@ -122,8 +122,15 @@
             this.popupCheck = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.popupDisplayTimeTxt = new System.Windows.Forms.TextBox();
+            this.currentGamePicLabel = new System.Windows.Forms.Label();
+            this.gameModePicBox = new System.Windows.Forms.PictureBox();
+            this.gameModeList = new System.Windows.Forms.ListBox();
+            this.gameModeLabel = new System.Windows.Forms.Label();
+            this.warningLabel = new System.Windows.Forms.Label();
+            this.gameModeTxt = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gameModePicBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -1543,6 +1550,68 @@
             this.popupDisplayTimeTxt.Text = "5";
             this.popupDisplayTimeTxt.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // currentGamePicLabel
+            // 
+            this.currentGamePicLabel.AutoSize = true;
+            this.currentGamePicLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentGamePicLabel.Location = new System.Drawing.Point(2145, 148);
+            this.currentGamePicLabel.Name = "currentGamePicLabel";
+            this.currentGamePicLabel.Size = new System.Drawing.Size(295, 46);
+            this.currentGamePicLabel.TabIndex = 97;
+            this.currentGamePicLabel.Text = "Current Game:";
+            // 
+            // gameModePicBox
+            // 
+            this.gameModePicBox.Location = new System.Drawing.Point(2153, 288);
+            this.gameModePicBox.Name = "gameModePicBox";
+            this.gameModePicBox.Size = new System.Drawing.Size(299, 334);
+            this.gameModePicBox.TabIndex = 98;
+            this.gameModePicBox.TabStop = false;
+            this.gameModePicBox.Visible = false;
+            // 
+            // gameModeList
+            // 
+            this.gameModeList.FormattingEnabled = true;
+            this.gameModeList.ItemHeight = 20;
+            this.gameModeList.Items.AddRange(new object[] {
+            "Traditional",
+            "Diagonal",
+            "Four Corners",
+            "X Pattern"});
+            this.gameModeList.Location = new System.Drawing.Point(1572, 1259);
+            this.gameModeList.Name = "gameModeList";
+            this.gameModeList.Size = new System.Drawing.Size(167, 24);
+            this.gameModeList.TabIndex = 99;
+            this.gameModeList.SelectedIndexChanged += new System.EventHandler(this.gameModeList_SelectedIndexChanged);
+            // 
+            // gameModeLabel
+            // 
+            this.gameModeLabel.AutoSize = true;
+            this.gameModeLabel.Location = new System.Drawing.Point(1461, 1259);
+            this.gameModeLabel.Name = "gameModeLabel";
+            this.gameModeLabel.Size = new System.Drawing.Size(101, 20);
+            this.gameModeLabel.TabIndex = 100;
+            this.gameModeLabel.Text = "Game Mode:";
+            // 
+            // warningLabel
+            // 
+            this.warningLabel.AutoSize = true;
+            this.warningLabel.ForeColor = System.Drawing.Color.Red;
+            this.warningLabel.Location = new System.Drawing.Point(1452, 1236);
+            this.warningLabel.Name = "warningLabel";
+            this.warningLabel.Size = new System.Drawing.Size(350, 20);
+            this.warningLabel.TabIndex = 101;
+            this.warningLabel.Text = "Warning: Changing mode will create new game!!!";
+            // 
+            // gameModeTxt
+            // 
+            this.gameModeTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gameModeTxt.ForeColor = System.Drawing.Color.Gold;
+            this.gameModeTxt.Location = new System.Drawing.Point(2168, 211);
+            this.gameModeTxt.Name = "gameModeTxt";
+            this.gameModeTxt.Size = new System.Drawing.Size(259, 53);
+            this.gameModeTxt.TabIndex = 102;
+            // 
             // mainForm
             // 
             this.AcceptButton = this.callBtn;
@@ -1550,6 +1619,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.newGameBtn;
             this.ClientSize = new System.Drawing.Size(2780, 1538);
+            this.Controls.Add(this.gameModeTxt);
+            this.Controls.Add(this.warningLabel);
+            this.Controls.Add(this.gameModeLabel);
+            this.Controls.Add(this.gameModeList);
+            this.Controls.Add(this.gameModePicBox);
+            this.Controls.Add(this.currentGamePicLabel);
             this.Controls.Add(this.popupDisplayTimeTxt);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.popupCheck);
@@ -1571,6 +1646,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gameModePicBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1671,6 +1747,12 @@
         private System.Windows.Forms.CheckBox popupCheck;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox popupDisplayTimeTxt;
+        private System.Windows.Forms.Label currentGamePicLabel;
+        private System.Windows.Forms.PictureBox gameModePicBox;
+        private System.Windows.Forms.ListBox gameModeList;
+        private System.Windows.Forms.Label gameModeLabel;
+        private System.Windows.Forms.Label warningLabel;
+        private System.Windows.Forms.TextBox gameModeTxt;
     }
 }
 
